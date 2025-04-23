@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+  font-family: $font-stack;
+  color: $text-color;
+  background-color: $background-color;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: $primary-color;
+  color: white;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  .navbar {
+    max-width: $max-width;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    .logo a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.8rem;
+      font-weight: 700;
+    }
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+      margin: 0;
+      li a {
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        transition: color 0.3s;
+        &:hover {
+          color: $accent-color;
+        }
+      }
+    }
+  }
+}
+
+main {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+section {
+  margin-bottom: 4rem;
+  h1, h2 {
+    color: $primary-color;
+    text-align: center;
+  }
+  p {
+    max-width: 600px;
+    margin: 1rem auto;
+    text-align: center;
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: $accent-color;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+  &:hover {
+    background: darken($accent-color, 10%);
+  }
+}
+
+.project-card {
+  background: white;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  h3 {
+    margin-top: 0;
+    color: $primary-color;
+  }
+}
+
+footer {
+  background: $primary-color;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  .social-links {
+    margin-top: 1rem;
+    a {
+      color: $accent-color;
+      margin: 0 1rem;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
