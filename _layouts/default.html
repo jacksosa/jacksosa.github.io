@@ -1,19 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
     {% feed_meta %}
     {% seo %}
-</head>
-<body>
-{% include header.html %}
-<main>
+  </head>
+  <body>
+    {% include navigation.html %}
     {{ content }}
-</main>
-{% include footer.html %}
-<script src="{{ '/assets/js/smooth-scroll.js' | relative_url }}"></script>
-</body>
+  </body>
 </html>
