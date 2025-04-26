@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="profile phot update">
-      <change afterPath="$PROJECT_DIR$/_data/cloud-skills.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/infra-skills.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_data/technical-skills.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_projects/(1) Betfair API Project.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/betfair.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/other-skills.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/database-skills.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/programming-skills.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/timeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/timeline.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/(1) PlaceHolder Project.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/(2) Awesome Project.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/(3) Empty Project.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/(4) VVG on GitHub.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/(5) The Fabulous.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/(6) Dummy Project.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/jacksosa/jacksosa.github.io&quot;,
+    &quot;url&quot;: &quot;https://github.com/jacksosa/jacksosa.github.io.git&quot;,
     &quot;accountId&quot;: &quot;05262c94-b69c-4585-bc73-c5cfb71d0344&quot;
   }
 }</component>
@@ -56,24 +59,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHELLCHECK.PATH&quot;: &quot;C:\\Users\\sam1_\\AppData\\Roaming\\JetBrains\\IdeaIC2024.2\\plugins\\Shell Script\\shellcheck.exe&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/TrinityLogic/IDE/jacksosa.github.io/_data&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHELLCHECK.PATH": "C:\\Users\\sam1_\\AppData\\Roaming\\JetBrains\\IdeaIC2024.2\\plugins\\Shell Script\\shellcheck.exe",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/TrinityLogic/IDE/jacksosa.github.io/assets/images",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\_data" />
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\assets\images" />
+      <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\_data" />
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\assets" />
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\images" />
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\assets\media" />
