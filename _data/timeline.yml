@@ -1,17 +1,60 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-- title: Software Engineer, Google, UK
-  from: 2018
+- title: Software Engineer, SJ Ltd, Remote
+  from: 2024
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: >-
+    Architected a high-frequency trading framework for the Betfair Exchange, utilizing a Spring Boot event-driven architecture integrated with Betfair’s Exchange and Streaming APIs. Designed and implemented automated trading strategies driven by proprietary metrics, including Weight of Money trends, Last Traded Price dynamics, price velocity, and order flow imbalance, ensuring rapid and precise trade execution. Leveraged Java, Spring Boot, and AWS to deliver a scalable, real-time data processing system. Established a robust CI/CD pipeline using GitHub Actions, facilitating seamless integration, automated testing, and deployment to AWS infrastructure, enhancing performance and reliability in dynamic betting markets.
+
+- title: Software Engineer, Mosaic Smart Data, London
+  from: 2022
+  to: 2024
+  description: >-
+    Led the development of a real-time API service at Mosaic Smart Data, enabling seamless ingestion of complex transactional data from leading financial institutions across foreign exchange, fixed income, credit, and repo markets. Designed a fault-tolerant, serverless AWS architecture (API Gateway, Lambda, SNS/SQS/S3) with cross-region Disaster Recovery fanout, implemented via ansible-templated CloudFormation, ensuring zero data loss and full recoverability. Enhanced the core application stack by developing a Java and Python data pipeline, optimizing data enrichment and ingestion into Apache Druid, significantly improving performance and user experience.
+
+- title: Software Engineer, ESG Global, Chorley
+  from: 2020
+  to: 2022
+  description: >-
+    Advanced smart metering technology at ESG Global by developing and maintaining a critical business orchestration layer, ensuring seamless data exchange between energy suppliers and the Data Communications Company. Utilized Java 11, Spring, Hibernate, MS SQL Server, RabbitMQ, and Nifi, applying Test-Driven Development with JUnit and Mockito to enhance system reliability. Managed product roadmap prioritization, approved production change requests, and provided 3rd line support for complex issue resolution. Adopted Agile Kanban workflows, GitFlow branching, and Confluence documentation to drive project transparency and team collaboration.
+
+- title: Java Contractor, Samuel Jackson Ltd, Remote
+  from: 2015
+  to: 2020
+  description: >-
+    Delivered innovative Java solutions across multiple contracts. At Ribby Hall Village (2018-2020), developed a Spring Boot microservice-based data warehouse, integrating third-party systems (Xledger, Campaign Monitor) via REST, SOAP, and GraphQL APIs. Containerized the solution with Docker, deployed it on Google Cloud’s Kubernetes, and implemented a GitLab CI/CD pipeline for automated testing and deployment. At Co-op (2015-2018), enhanced the Food Retail Business Intelligence Team’s data warehouse with Java worker services for REST API integration, aggregating competitor pricing and weather data, adhering to Agile methodologies and TDD with GitHub version control.
+
+- title: Java Developer, Trinity Logic Ltd, Remote
+  from: 2006
+  to: 2015
+  description: >-
+    Designed and delivered bespoke software solutions at Trinity Logic Ltd for commercial and individual clients, leveraging open-source technologies such as Spring, Struts2, Tiles, and Hibernate, deployed on MySQL-backed Tomcat/Jetty servers hosted on Linux VPS. Spearheaded the development of a high-engagement social media platform for sharing venue photos across the UK, significantly boosting user interaction. Emphasized agile development practices to deliver cost-effective, high-quality solutions within stringent timelines, enhancing client satisfaction and company reputation.
+
+- title: Java Developer, UBS Warburg, London
+  from: 2000
+  to: 2006
+  description: >-
+    Contributed to the development and enhancement of Sesame, a Java-based market adaptor at UBS Warburg, standardizing interfaces via Cobra for seamless communication between internal trading systems and European equity/derivative exchanges. Performed rigorous bug fixing, testing, and Java programming to ensure system reliability. Provided 3rd line support for the London user base, resolving complex issues to maintain uninterrupted trading operations, reinforcing the product’s stability in a high-stakes financial environment.
+
+- title: Cambridge University, Wolfson College, Cambridge
+  from: 1998
+  to: 1999
+  description: >-
+    Diploma of Higher Education in Advanced Course in Design, Manufacture and Management (ACDMM)
+
+- title: Lancaster University, Pendle College, Lancaster
+  from: 1994
+  to: 1998
+  description: >-
+    1st Class Master's in Mechanical Engineering
+
+- title: Blackpool 6th form College, Blackpool
+  from: 1992
+  to: 1994
+  description: >-
+    -A Level's in Pure Maths, Applied Maths, Physics, Chemistry & Engineering Drawing
+
+- title: Hodgson High School, Poulton le Fylde
+  from: 1987
+  to: 1992
+  description: >-
+    GCSE's in English Language & Literature, Mathematics, Biology, Physics, Chemistry, Information Technology,
+    Geography, French, Art, Music

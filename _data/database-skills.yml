@@ -1,0 +1,49 @@
+# === Relational Databases (SQL) ===
+- name: PostgreSQL
+  percentage: 85
+  color: success
+
+- name: MySQL
+  percentage: 85
+  color: success
+
+- name: MS SQL Server
+  percentage: 80
+  color: warning
+
+- name: SQLite
+  percentage: 70
+  color: info
+
+- name: H2
+  percentage: 70
+  color: info
+
+- name: Teradata
+  percentage: 50
+  color: danger
+
+
+# === NoSQL Databases ===
+- name: MongoDB
+  percentage: 60
+  color: secondary
+
+- name: DynamoDB
+  percentage: 60
+  color: secondary
+
+- name: Redis
+  percentage: 50
+  color: danger
+
+
+# === Time Series Databases ===
+- name: Apache Druid
+  percentage: 50
+  color: danger
+
+# === Machine Learning / Vector Databases ===
+- name: Pinecone
+  percentage: 50
+  color: danger

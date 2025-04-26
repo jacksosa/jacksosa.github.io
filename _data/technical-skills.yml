@@ -1,0 +1,36 @@
+# === Core Programming Languages ===
+- name: Java
+  percentage: 95
+  color: success
+
+- name: Spring Boot
+  percentage: 90
+  color: success
+
+- name: Python
+  percentage: 75
+  color: warning
+
+- name: VBA
+  percentage: 70
+  color: info
+
+- name: JavaScript
+  percentage: 70
+  color: info
+
+- name: TypeScript
+  percentage: 70
+  color: info
+
+- name: Google Script
+  percentage: 60
+  color: secondary
+
+- name: C / C++
+  percentage: 50
+  color: danger
+
+- name: Assembly
+  percentage: 50
+  color: danger

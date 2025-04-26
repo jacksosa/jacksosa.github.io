@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="cfg update and fav icon">
-      <change afterPath="$PROJECT_DIR$/assets/images/profile.png" afterDir="false" />
+    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="profile phot update">
+      <change afterPath="$PROJECT_DIR$/_data/cloud-skills.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_data/infra-skills.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_data/technical-skills.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/other-skills.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/database-skills.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/programming-skills.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/timeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/timeline.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +64,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHELLCHECK.PATH&quot;: &quot;C:\\Users\\sam1_\\AppData\\Roaming\\JetBrains\\IdeaIC2024.2\\plugins\\Shell Script\\shellcheck.exe&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/TrinityLogic/IDE/jacksosa.github.io/assets/images&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/TrinityLogic/IDE/jacksosa.github.io/_data&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
@@ -68,11 +72,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\_data" />
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\assets\images" />
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\assets" />
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\images" />
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\assets\media" />
-      <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\_projects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io" />
@@ -118,6 +122,7 @@
     <MESSAGE value="removed workflows" />
     <MESSAGE value="update to Jalpc template" />
     <MESSAGE value="cfg update and fav icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="cfg update and fav icon" />
+    <MESSAGE value="profile phot update" />
+    <option name="LAST_COMMIT_MESSAGE" value="profile phot update" />
   </component>
 </project>

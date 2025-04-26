@@ -1,0 +1,25 @@
+# === Scripting and Automation ===
+- name: Bash Scripting
+  percentage: 70
+  color: secondary
+
+- name: Jenkins
+  percentage: 70
+  color: info
+
+- name: GitHub Actions
+  percentage: 80
+  color: info
+
+# === OS and Environment ===
+- name: Linux
+  percentage: 95
+  color: success
+
+- name: Windows
+  percentage: 95
+  color: success
+
+- name: MacOS
+  percentage: 50
+  color: secondary

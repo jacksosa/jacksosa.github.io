@@ -1,0 +1,20 @@
+# === Cloud and Infrastructure Automation ===
+- name: AWS CDK
+  percentage: 80
+  color: success
+
+- name: CloudFormation
+  percentage: 75
+  color: success
+
+- name: Ansible
+  percentage: 70
+  color: secondary
+
+- name: Docker
+  percentage: 70
+  color: secondary
+
+- name: Kubernetes
+  percentage: 55
+  color: secondary
