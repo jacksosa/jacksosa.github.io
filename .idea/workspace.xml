@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="removed workflows">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jacksosa.github.io.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config_docker.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/authors.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/comments/layout-comments/comment-1470944006665.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/comments/layout-comments/comment-1470944162041.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/comments/markup-syntax-highlighting/comment-1470969665387.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/comments/welcome-to-jekyll/comment-1470942205700.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/comments/welcome-to-jekyll/comment-1470942247755.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/comments/welcome-to-jekyll/comment-1470942265819.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/comments/welcome-to-jekyll/comment-1470942493518.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/cv.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/ui-text.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_drafts/post-draft.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/analytics-providers/custom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/analytics-providers/google-analytics-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/analytics-providers/google-universal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/analytics-providers/google.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/analytics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/archive-single-cv.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/archive-single-talk-cv.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/archive-single-talk.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/archive-single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/author-profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/base_path" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/breadcrumbs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/browser-upgrade.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/category-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/comment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/comments-providers/custom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/comments-providers/discourse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/comments-providers/disqus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/comments-providers/facebook.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/comments-providers/google-plus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/comments-providers/scripts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/comments-providers/staticman.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/comments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/cv-template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/feature_row" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer/custom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/gallery" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/group-by-array" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/head/custom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/masthead.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/nav_list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/page__hero.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/page__taxonomy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/paginator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/post_pagination.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/read-time.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/scripts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/seo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/social-share.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/tag-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/archive-taxonomy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/archive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/compress.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/cv-layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/splash.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/talk.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/404.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/archive-layout-with-content.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/category-archive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/collection-archive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/cv-json.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/cv.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/markdown.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/non-menu-page.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/page-archive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/portfolio.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/publications.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/sitemap.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/tag-archive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/talkmap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/talks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/teaching.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/terms.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/year-archive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_portfolio/portfolio-1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_portfolio/portfolio-2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2012-08-14-blog-post-1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-08-14-blog-post-2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-08-14-blog-post-3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2015-08-14-blog-post-4.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2199-01-01-future-post.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_publications/2009-10-01-paper-title-number-1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_publications/2010-10-01-paper-title-number-2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_publications/2015-10-01-paper-title-number-3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_publications/2024-02-17-paper-title-number-4.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/_syntax.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/_themes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/include/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/include/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_archive.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_masthead.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_navigation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_notices.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_reset.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/layout/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/theme/_dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/theme/_default.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/breakpoint/_breakpoint.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/breakpoint/_context.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/breakpoint/_helpers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/breakpoint/_legacy-settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/breakpoint/_no-query.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/breakpoint/_parsers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/breakpoint/_respond-to.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/breakpoint/_settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/breakpoint/parsers/_double.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/breakpoint/parsers/_query.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/breakpoint/parsers/_resolution.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/breakpoint/parsers/_single.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/breakpoint/parsers/_triple.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/breakpoint/parsers/double/_default-pair.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/breakpoint/parsers/double/_default.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/breakpoint/parsers/double/_double-string.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/breakpoint/parsers/resolution/_resolution.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/breakpoint/parsers/single/_default.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/breakpoint/parsers/triple/_default.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_shims.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/brands.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/fontawesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/regular.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/solid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/font-awesome/v4-shims.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/magnific-popup/_magnific-popup.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/magnific-popup/_settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/_su.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/_susy.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/_susyone.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/_su.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/_susy.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/_susyone.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susy/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susy/_bleed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susy/_box-sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susy/_breakpoint-plugin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susy/_container.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susy/_context.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susy/_gallery.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susy/_grids.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susy/_gutters.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susy/_isolate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susy/_margins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susy/_padding.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susy/_rows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susy/_settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susy/_span.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susy/_validation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susyone/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susyone/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susyone/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susyone/_isolation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susyone/_margin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susyone/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susyone/_padding.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/language/susyone/_settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/output/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/output/_shared.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/output/_support.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/output/float/_container.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/output/float/_end.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/output/float/_isolate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/output/float/_span.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/output/shared/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/output/shared/_container.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/output/shared/_direction.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/output/shared/_inspect.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/output/shared/_margins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/output/shared/_output.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/output/shared/_padding.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/output/support/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/output/support/_box-sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/output/support/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/output/support/_prefix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/output/support/_rem.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/output/support/_support.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/su/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/su/_settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/su/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/vendor/susy/susy/su/_validation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_talks/2012-03-01-talk-1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_talks/2013-03-01-tutorial-1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_talks/2014-02-01-talk-2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_talks/2014-03-01-talk-3.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_teaching/2014-spring-teaching-1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_teaching/2015-spring-teaching-2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/academicons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/academicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/collapse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/cv-layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/cv-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/academicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/academicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/academicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/academicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/_main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/plugins/jquery.greedy-navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-v4compatibility.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/webfonts/fa-v4compatibility.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/bibtex1.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/paper1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/paper2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/paper3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/slides1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/slides2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/slides3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/3953273590_704e3899d5_m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/500x300.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/apple-touch-icon-180x180.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bio-photo-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bio-photo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/editing-talk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/favicon-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/favicon-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/favicon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/foo-bar-identity-th.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/foo-bar-identity.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/homepage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image-alignment-1200x4002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image-alignment-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image-alignment-300x200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/image-alignment-580x300.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/paragraph-indent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/paragraph-no-indent.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/site-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/themes/homepage-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/themes/homepage-light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown_generator/OrcidToBib.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown_generator/PubsFromBib.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown_generator/publications.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown_generator/publications.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown_generator/publications.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown_generator/pubsFromBib.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown_generator/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown_generator/talks.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown_generator/talks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown_generator/talks.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/cv_markdown_to_json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/update_cv_json.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/talkmap.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/talkmap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/talkmap/leaflet_dist/MarkerCluster.Default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/talkmap/leaflet_dist/MarkerCluster.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/talkmap/leaflet_dist/leaflet.markercluster-src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/talkmap/leaflet_dist/leaflet.markercluster.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/talkmap/leaflet_dist/screen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/talkmap/map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/talkmap/org-locations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/talkmap_out.ipynb" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jacksosa&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jacksosa/jacksosa.github.io&quot;,
+    &quot;accountId&quot;: &quot;05262c94-b69c-4585-bc73-c5cfb71d0344&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2w7Kbs618yLXjKXZM8rKY4pw3W0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;C:\\Users\\sam1_\\AppData\\Roaming\\JetBrains\\IdeaIC2024.2\\plugins\\Shell Script\\shellcheck.exe&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/TrinityLogic/IDE/jacksosa.github.io/images&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\images" />
+      <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\assets\media" />
+      <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\_projects" />
+      <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\_includes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\TrinityLogic\IDE\jacksosa.github.io" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="" />
+      <created>1745387247063</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1745387247063</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
+    <MESSAGE value="WIP building content" />
+    <MESSAGE value="add academicpages template" />
+    <MESSAGE value="removed workflows" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed workflows" />
+  </component>
+</project>
