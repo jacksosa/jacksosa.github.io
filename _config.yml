@@ -37,7 +37,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Samuel Jackson
-  image             : https://i.imgur.com/uyDNQnn.jpg
+  image             : assets/images/profile.png
   email             : jacksosa76@gmail.com
   github            : jacksosa
 #  behance           : your_username
