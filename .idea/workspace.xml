@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="profile phot update">
-      <change afterPath="$PROJECT_DIR$/_projects/(1) Betfair API Project.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/betfair.png" afterDir="false" />
+    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="started project section - betfair api project added">
+      <change afterPath="$PROJECT_DIR$/_projects/(2) Mosaic Smart Data Realtime API Project.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_projects/(3) ESG Global BOL Engine Project.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_projects/(4) Ribby Hall DWH Project.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_projects/(5) Co-op Competitor Pricing Reports Project.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/co-op.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/esg-global.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/mosaic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/ribbyhall.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/(1) PlaceHolder Project.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/(2) Awesome Project.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/(3) Empty Project.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/(4) VVG on GitHub.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/(5) The Fabulous.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/(6) Dummy Project.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/(1) Betfair API Project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/(1) Betfair API Trading Strategy Project.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHELLCHECK.PATH": "C:\\Users\\sam1_\\AppData\\Roaming\\JetBrains\\IdeaIC2024.2\\plugins\\Shell Script\\shellcheck.exe",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/TrinityLogic/IDE/jacksosa.github.io/assets/images",
+    "last_opened_file_path": "C:/TrinityLogic/IDE/jacksosa.github.io/_projects",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -76,11 +75,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\_projects" />
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\assets\images" />
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\_data" />
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\assets" />
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\images" />
-      <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\assets\media" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io" />
@@ -127,6 +126,7 @@
     <MESSAGE value="update to Jalpc template" />
     <MESSAGE value="cfg update and fav icon" />
     <MESSAGE value="profile phot update" />
-    <option name="LAST_COMMIT_MESSAGE" value="profile phot update" />
+    <MESSAGE value="started project section - betfair api project added" />
+    <option name="LAST_COMMIT_MESSAGE" value="started project section - betfair api project added" />
   </component>
 </project>
