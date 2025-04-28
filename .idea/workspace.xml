@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="started blog section, updated: -&#10;2025-03-20-digital-minimalism.md&#10;2025-04-27-how-to-undo-your-git-failure.md">
+    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="started blog section, updated: -&#10;2025-03-20-digital-minimalism.md&#10;2025-04-26-github-flow.md&#10;2025-04-28-clean-coding.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-02-09-what-is-version-control.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-04-17-do-not-go-gentle-into-that-good-night.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2016-07-23-a-better-hello-world.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2017-01-01-github-flow.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-04-26-github-flow.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-05-09-four-lessons-after-eleven-years-in-silicon-valley.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-12-01-what-the-heck-is-a-callback.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-12-10-clean-coding.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-04-28-clean-coding.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2025-03-20-digital-minimalism.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-03-20-digital-minimalism.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/profile.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +122,7 @@
     <MESSAGE value="started project section - betfair api project added" />
     <MESSAGE value="continued project section with the addition of: -&#10;(1) Betfair API Trading Strategy Project.md&#10;(2) Mosaic Smart Data Realtime API Project.md&#10;(3) ESG Global BOL Engine Project.md&#10;(4) Ribby Hall DWH Project.md&#10;(5) Co-op Competitor Pricing Reports Project.md" />
     <MESSAGE value="started blog section, updated: -&#10;2025-03-20-digital-minimalism.md&#10;2025-04-27-how-to-undo-your-git-failure.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="started blog section, updated: -&#10;2025-03-20-digital-minimalism.md&#10;2025-04-27-how-to-undo-your-git-failure.md" />
+    <MESSAGE value="started blog section, updated: -&#10;2025-03-20-digital-minimalism.md&#10;2025-04-26-github-flow.md&#10;2025-04-28-clean-coding.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="started blog section, updated: -&#10;2025-03-20-digital-minimalism.md&#10;2025-04-26-github-flow.md&#10;2025-04-28-clean-coding.md" />
   </component>
 </project>

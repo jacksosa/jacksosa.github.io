@@ -1,7 +1,11 @@
 ### Site Settings ###
 title               : Samuel Jackson
 description         : >-
-                      Results-Driven Senior Back End Developer with 20+ Years of Expertise.
+                      I am a Senior Back End Developer with over two decades of experience architecting
+                      high-performance, scalable backend systems using Java, Spring Boot, and modern cloud technologies.
+                      Specializing in real-time data processing, API integrations, and Test-Driven Development (TDD),
+                      I deliver solutions that drive efficiency and innovation across diverse industries.
+                      Visit my About Me section to explore my expertise and impactful projects.
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : jacksosa/jacksosa.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : yousinix/portfolYOU
