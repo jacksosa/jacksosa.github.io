@@ -1,7 +1,7 @@
 ---
 title: Digital Minimalism | Staying Focused in a Noisy Tech World
 tags: [ Social Media, Minimalism, Technology ]
-style: fill
+style: border
 color: dark
 description: As a Java developer, I’ve learned to manage digital distractions using minimalism principles. Here’s how I use five strategies to stay productive and focused.
 ---

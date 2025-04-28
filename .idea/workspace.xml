@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="continued project section with the addition of: -&#10;(1) Betfair API Trading Strategy Project.md&#10;(2) Mosaic Smart Data Realtime API Project.md&#10;(3) ESG Global BOL Engine Project.md&#10;(4) Ribby Hall DWH Project.md&#10;(5) Co-op Competitor Pricing Reports Project.md">
-      <change afterPath="$PROJECT_DIR$/_posts/2025-04-27-how-to-undo-your-git-failure.md" afterDir="false" />
+    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="started blog section, updated: -&#10;2025-03-20-digital-minimalism.md&#10;2025-04-27-how-to-undo-your-git-failure.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2015-09-25-how-to-undo-your-git-failure.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-02-15-learn-react-js.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-02-20-digital-minimalism.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-03-20-digital-minimalism.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-02-09-what-is-version-control.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-04-17-do-not-go-gentle-into-that-good-night.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-07-23-a-better-hello-world.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2017-01-01-github-flow.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-04-26-github-flow.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-05-09-four-lessons-after-eleven-years-in-silicon-valley.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-12-01-what-the-heck-is-a-callback.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-12-10-clean-coding.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-04-28-clean-coding.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2025-03-20-digital-minimalism.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-03-20-digital-minimalism.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,21 +57,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHELLCHECK.PATH": "C:\\Users\\sam1_\\AppData\\Roaming\\JetBrains\\IdeaIC2024.2\\plugins\\Shell Script\\shellcheck.exe",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/TrinityLogic/IDE/jacksosa.github.io/_projects",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHELLCHECK.PATH&quot;: &quot;C:\\Users\\sam1_\\AppData\\Roaming\\JetBrains\\IdeaIC2024.2\\plugins\\Shell Script\\shellcheck.exe&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/TrinityLogic/IDE/jacksosa.github.io/_projects&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\_projects" />
@@ -123,6 +127,7 @@
     <MESSAGE value="profile phot update" />
     <MESSAGE value="started project section - betfair api project added" />
     <MESSAGE value="continued project section with the addition of: -&#10;(1) Betfair API Trading Strategy Project.md&#10;(2) Mosaic Smart Data Realtime API Project.md&#10;(3) ESG Global BOL Engine Project.md&#10;(4) Ribby Hall DWH Project.md&#10;(5) Co-op Competitor Pricing Reports Project.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="continued project section with the addition of: -&#10;(1) Betfair API Trading Strategy Project.md&#10;(2) Mosaic Smart Data Realtime API Project.md&#10;(3) ESG Global BOL Engine Project.md&#10;(4) Ribby Hall DWH Project.md&#10;(5) Co-op Competitor Pricing Reports Project.md" />
+    <MESSAGE value="started blog section, updated: -&#10;2025-03-20-digital-minimalism.md&#10;2025-04-27-how-to-undo-your-git-failure.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="started blog section, updated: -&#10;2025-03-20-digital-minimalism.md&#10;2025-04-27-how-to-undo-your-git-failure.md" />
   </component>
 </project>
