@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="added home page">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="update home page link">
+      <change afterPath="$PROJECT_DIR$/pages/testimonials.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +126,7 @@
     <MESSAGE value="profile update" />
     <MESSAGE value="added contact page" />
     <MESSAGE value="added home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added home page" />
+    <MESSAGE value="update home page link" />
+    <option name="LAST_COMMIT_MESSAGE" value="update home page link" />
   </component>
 </project>
