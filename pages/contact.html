@@ -1,0 +1,24 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+weight: 2
+---
+
+<h1 id="contact"><strong>Contact</strong></h1>
+<p>Reach out to {{ site.author.name }} using the form below!</p>
+
+<form action="https://formspree.io/f/xkgrooov" method="POST">
+    <div class="form-group">
+        <input type="email" class="form-control" aria-describedby="help" name="email" id="email"
+               placeholder="Enter email">
+        <small id="help" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+        <textarea name="message" class="form-control" id="message" placeholder="Enter your message"
+                  rows="10"></textarea>
+    </div>
+    <p>
+        <button class="btn btn-primary" type="submit">Send</button>
+    </p>
+</form>
