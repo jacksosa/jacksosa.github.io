@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="added testimonials.md">
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-    </list>
+    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="added rss feed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,6 +124,7 @@
     <MESSAGE value="added home page" />
     <MESSAGE value="update home page link" />
     <MESSAGE value="added testimonials.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="added testimonials.md" />
+    <MESSAGE value="added rss feed" />
+    <option name="LAST_COMMIT_MESSAGE" value="added rss feed" />
   </component>
 </project>
