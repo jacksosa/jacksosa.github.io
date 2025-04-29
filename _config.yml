@@ -16,7 +16,7 @@ open_new_tab        : false                    # Opens external URLs in new tab 
 plugins:
   - jemoji
   - jekyll-sitemap
-#  - jekyll-feed
+  - jekyll-feed
 #  - jekyll-gist
 #  - jekyll-paginate
 #  - jekyll-redirect-from

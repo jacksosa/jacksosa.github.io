@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="update home page link">
-      <change afterPath="$PROJECT_DIR$/pages/testimonials.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="added testimonials.md">
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,6 +125,7 @@
     <MESSAGE value="added contact page" />
     <MESSAGE value="added home page" />
     <MESSAGE value="update home page link" />
-    <option name="LAST_COMMIT_MESSAGE" value="update home page link" />
+    <MESSAGE value="added testimonials.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="added testimonials.md" />
   </component>
 </project>
