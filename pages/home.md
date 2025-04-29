@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Home
-permalink: /
-weight: 0
+permalink: /#
+weight: 1
 ---

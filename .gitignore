@@ -10,3 +10,5 @@ Gemfile.lock
 
 # Log Files
 *.log
+
+/.idea/*
