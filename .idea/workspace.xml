@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="profile update">
-      <change afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
+    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="added contact page">
+      <change afterPath="$PROJECT_DIR$/pages/home.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +123,7 @@
     <MESSAGE value="started blog section, updated: -&#10;2025-03-20-digital-minimalism.md&#10;2025-04-27-how-to-undo-your-git-failure.md" />
     <MESSAGE value="started blog section, updated: -&#10;2025-03-20-digital-minimalism.md&#10;2025-04-26-github-flow.md&#10;2025-04-28-clean-coding.md" />
     <MESSAGE value="profile update" />
-    <option name="LAST_COMMIT_MESSAGE" value="profile update" />
+    <MESSAGE value="added contact page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added contact page" />
   </component>
 </project>
