@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="added rss feed">
-      <change afterPath="$PROJECT_DIR$/pages/hire.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home.md" afterDir="false" />
+    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="added hire me page">
+      <change beforePath="$PROJECT_DIR$/pages/hire.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/hire.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +127,7 @@
     <MESSAGE value="update home page link" />
     <MESSAGE value="added testimonials.md" />
     <MESSAGE value="added rss feed" />
-    <option name="LAST_COMMIT_MESSAGE" value="added rss feed" />
+    <MESSAGE value="added hire me page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added hire me page" />
   </component>
 </project>

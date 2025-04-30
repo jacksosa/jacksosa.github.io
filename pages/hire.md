@@ -38,6 +38,7 @@ or the [contact form]({{ site.baseurl }}/contact/) on my website.
 Thank you for considering me for your next project. I look forward to hearing from you!
 
 Best regards,
+
 {{ site.author.name }}
 
 ## Contact Information
