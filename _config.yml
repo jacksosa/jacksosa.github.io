@@ -11,7 +11,6 @@ repository          : jacksosa/jacksosa.github.io      # Change to <your-usernam
 remote_theme        : yousinix/portfolYOU
 open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
 
-
 ### Plugins ###
 plugins:
   - jemoji
@@ -42,8 +41,10 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : Samuel Jackson
   image             : assets/images/profile.png
+  mobile             : "+44 7719 84 08 36"
   email             : jacksosa76@gmail.com
   github            : jacksosa
+  website           : https://www.samueljacksonltd.co.uk
 #  behance           : your_username
 #  dribbble          : your_username
 #  facebook          : your_username

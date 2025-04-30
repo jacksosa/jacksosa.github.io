@@ -2,5 +2,5 @@
 layout: page
 title: Home
 permalink: /#
-weight: 1
+weight: 0
 ---
