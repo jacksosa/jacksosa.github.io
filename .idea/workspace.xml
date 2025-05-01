@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="added hire me page">
-      <change beforePath="$PROJECT_DIR$/pages/hire.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/hire.md" afterDir="false" />
+    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="added post for random pitfall java">
+      <change afterPath="$PROJECT_DIR$/_posts/2025-05-01-random-pitfall.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,28 +50,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHELLCHECK.PATH&quot;: &quot;C:\\Users\\sam1_\\AppData\\Roaming\\JetBrains\\IdeaIC2024.2\\plugins\\Shell Script\\shellcheck.exe&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/TrinityLogic/IDE/jacksosa.github.io/pages&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHELLCHECK.PATH": "C:\\Users\\sam1_\\AppData\\Roaming\\JetBrains\\IdeaIC2024.2\\plugins\\Shell Script\\shellcheck.exe",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/TrinityLogic/IDE/jacksosa.github.io/_posts",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\_posts" />
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\pages" />
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\_projects" />
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\assets\images" />
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\_data" />
-      <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io" />
@@ -128,6 +129,8 @@
     <MESSAGE value="added testimonials.md" />
     <MESSAGE value="added rss feed" />
     <MESSAGE value="added hire me page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added hire me page" />
+    <MESSAGE value="added space for author name hire me page" />
+    <MESSAGE value="added post for random pitfall java" />
+    <option name="LAST_COMMIT_MESSAGE" value="added post for random pitfall java" />
   </component>
 </project>
