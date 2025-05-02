@@ -158,8 +158,10 @@ Smart Data’s real-time pipeline, which empowered FICC desks with instant marke
 productivity, reduced stress, and let me focus on solving problems, not fighting bugs.
 
 Start small: write a test, rename a variable, or split a method. Over time, these habits will transform your team’s
-output. For a deeper dive, grab Robert Martin’s Clean Code, it reshaped how I code. Have you battled messy code? Share
-your clean code wins with me, or ping me for help applying these to your project!
+output. For a deeper dive, grab Robert Martin’s Clean Code, it reshaped how I code.
+
+Have you battled messy code? Share your clean code wins with me [here]({{ site.baseurl }}/contact/), or ping me for help
+applying these to your project!
 
 
 <p class="text-center">

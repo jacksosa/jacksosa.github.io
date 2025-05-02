@@ -173,8 +173,9 @@ git reset --soft def5678 # Recover commit, keep changes staged
 Git failures can feel catastrophic, but `git reflog` and `git reset` are your lifelines. By understanding the reflog’s
 history and using reset strategically, you can recover lost commits, stashes, and branches with confidence. Next time
 you make a Git mistake, take a deep breath, check the reflog, and roll back time.
-Have you ever lost code in Git? Share your recovery stories with me, or let me know if you need help with a specific Git
-mishap!
+
+Have you ever lost code in Git? Share your recovery stories with me [here]({{ site.baseurl }}/contact/), or let me know
+if you need help with a specific Git mishap!
 
 
 <p class="text-center">

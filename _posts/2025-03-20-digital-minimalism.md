@@ -82,9 +82,10 @@ clarity I need for tasks like architecting a Kubernetes deployment or debugging 
 digital life, I’ve reclaimed time and focus, which directly translates to better code and happier clients. If you’re
 feeling swamped by digital noise, try these five steps. They’ve helped me thrive in demanding projects across
 industries, from retail to energy. For inspiration, I recommend Matt D’Avella’s documentary on minimalism, it’s a great
-starting point for rethinking your relationship with tech.  
-Have you tackled digital distractions in your work? Share your tips with me, or let me know if you want advice on
-implementing these strategies!
+starting point for rethinking your relationship with tech.
+
+Have you tackled digital distractions in your work? Share your tips with me [here]({{ site.baseurl }}/contact/), or let
+me know if you want advice on implementing these strategies!
 
 <p class="text-center">
 {% include elements/button.html link="https://www.mattdavella.com/minimalism" text="Matt D'Avella's Minimalism" %}

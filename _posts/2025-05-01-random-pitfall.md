@@ -3,30 +3,38 @@ title: Java | A Random Pitfall
 tags: [ Java, Random, Math, ThreadLocalRandom, AtomicLong, AtomicReference ]
 style: fill
 color: secondary
-description: Some unexpected problems when using java.util.Random in a multi-threaded environment.
+description: As a Java developer, I hit a performance snag with java.util.Random in multi-threaded systems. Here’s how I fixed it with ThreadLocalRandom.
 ---
 
 ---
-From time to time we need a randomly generated Number in Java. In this case we are normally using `java.util.Random`
-which provides a stream of pseudo generated Numbers. But there are some use cases in which the direct usage may cause
-some unexpected problems.
+As a Java developer who’s built systems like Mosaic Smart Data’s real-time API pipeline, Co-op’s competitor pricing
+reports, ESG Global’s BOL Engine, and Ribby Hall Village’s data warehouse, I’ve learned that even small oversights can
+tank performance in high-stakes projects. One sneaky culprit? Misusing `java.util.Random` in multi-threaded
+environments. I ran into this while optimizing a Spring Boot microservice for Mosaic’s financial data pipeline, where
+random number generation caused unexpected slowdowns. Let’s dive into the pitfall, why it happens, and how
+`ThreadLocalRandom` saved the day—plus tips to keep your projects humming.
 
-This is the ordinary way to generate a Number:
+## 1. The Random Trap in Multi-Threaded Systems
+
+Generating random numbers seems simple, right? You instantiate `java.util.Random` and call methods like `nextInt()` or
+`nextDouble()`. Here’s the typical setup I used early on:
 
 ```java
 // Random
 Random random = new Random();
-random.nextInt();//nextDouble(), nextBoolean(), nextFloat(), ...
+int nextInt = random.nextInt();
+double nextDouble = random.nextDouble();
+// etc...
 ```
 
-Alternatively, we can use the Math Class:
+Alternatively, I sometimes leaned on Math.random() for quick prototyping:
 
 ```java
 // Math
-Math.random();
+double value = Math.random();
 ```
 
-Whereby the Math class just holds an instance of `Random` to generating Numbers.
+But here’s the catch: `Math.random()` just wraps a shared `Random` instance under the hood. Check out its source:
 
 ```java
 // Math
@@ -37,10 +45,17 @@ public static double random() {
 }
 ```
 
-According to the Javadoc, the usage of `java.util.Random` is thread safe. But the concurrent use of the same `Random`
-instance across different threads may cause contention and consequently poor performance. The reason for this is the
-usage of so called Seeds for the generation of random numbers. A Seed is a simple number which provides the basis for
-the generation of new random numbers. This happens within the method next() which is used within `Random`:
+This worked fine for small scripts or single-threaded apps. But when I deployed a Spring Boot service processing
+high-velocity Kafka streams for Mosaic Smart Data, performance tanked. The culprit? Contention in Random’s thread-safe
+but slow seed updates.
+
+**ProTip**: Avoid `Math.random()` in performance-critical code, it’s a thin wrapper around `Random` and inherits the
+same issues.
+
+## 2. Why Random Slows Down Under Pressure
+
+The issue lies in how `Random` generates numbers. It relies on a seed, a number that’s updated to produce the next
+random value. The critical method is `next()`, which updates the seed atomically:
 
 ```java
 // Random
@@ -55,31 +70,63 @@ protected int next(int bits) {
 }
 ```
 
-First, the old seed and a new one are stored over two auxiliary variables. The principle by which the new seed is
-created is not important at this point. To save the new seed, the `compareAndSet()` method is called. This replaces the
-old seed with the next new seed, but only under the condition that the old seed corresponds to the seed currently set.
-If the value in the meantime was manipulated by a concurrent thread, the method return `false`, which means that the old
-value did not match the excepted value. This is done within a loop till the variables matches the excepted values. And
-this is the point which could cause poor performance and contention.
+Here’s what’s happening:
 
-Thus, if more threads are actively generating new random numbers with the same instance of `Random`, the higher the
-probability that the above mentioned case occurs. For programs that generate many (very many) random numbers, this
-procedure is not recommended. In this case you should use `ThreadLocalRandom` instead, which was added to Java in
-version 1.7.
+* The method grabs the current seed (`oldseed`) and computes a new one (`nextseed`).
+* It uses `compareAndSet()` to update the seed atomically, ensuring thread safety.
+* If another thread updates the seed concurrently, `compareAndSet()` fails, and the loop retries.
 
-`ThreadLocalRandom` extends Random and adds the option to restrict its use to the respective thread instance. For this
-purpose, an instance of `ThreadLocalRandom` is held in an internal map for the respective thread and returned by calling
-current().
+In a multi-threaded system, like my Kafka consumer handling millions of market events daily, this loop becomes a
+bottleneck. Multiple threads hammering the same Random instance cause contention, leading to retries and degraded
+performance. For Mosaic’s pipeline, where sub-second latency was critical, this was a dealbreaker.
+
+**ProTip**: Monitor performance in multi-threaded apps using tools like **JDK Mission Control**, **VisualVM** or *
+*JProfiler** to spot contention in `Random` usage.
+
+## 3. The Fix: Switch to ThreadLocalRandom
+
+Java 1.7 introduced `ThreadLocalRandom`, a lifesaver for multi-threaded environments. Unlike `Random`, it maintains a
+separate random number generator per thread, eliminating contention. Here’s how I used it in the Mosaic pipeline:
 
 ```java
-ThreadLocalRandom.current().nextInt()
+int nextInt = ThreadLocalRandom.current().nextInt();
 ```
 
-## Conclusion
+`ThreadLocalRandom` extends `Random` but stores its state in a thread-local map, accessed via `current()`. This means
+each thread gets its own generator, sidestepping the seed contention issue. When I swapped `Random` for
+`ThreadLocalRandom` in my Spring Boot service, latency dropped significantly, and the pipeline hit its sub-millisecond
+through-put targets.
 
-The pitfall described above does not mean that it’s forbidden to share a `Random` Instance between several threads.
-There is no problem with turning one or two extra rounds in a loop, but if you generate a huge amount of random numbers
-in different threads, just bear the above mentioned solution in mind. This could save you some debug time :)
+**ProTip**: Use `ThreadLocalRandom` for all multi-threaded random number needs, it’s faster and contention-free. Just
+don’t share its instances across threads.
+
+## 4. When to Stick with Random
+
+`ThreadLocalRandom` isn’t always the answer. For single-threaded apps or low-frequency random number generation—like
+generating a one-off ID in a Ribby Hall data sync job, Random is fine. Its thread safety doesn’t hurt in these cases,
+and the overhead is negligible. I’ve also used `Random` with a fixed seed for reproducible results in unit tests, like
+mockingdata for ESG’s BOL Engine.
+
+However, if you’re sharing a `Random` instance across threads and generating tons of numbers, you’re asking for trouble.
+The contention I hit in Mosaic’s pipeline could’ve been avoided if I’d known about `ThreadLocalRandom` sooner.
+
+**ProTip**: Reserve `Random` for single-threaded or low-volume use cases. For deterministic testing, pass a seed to
+Random’s constructor (e.g., `new Random(42)`).
+
+## Why This Matters for Your Projects
+
+This pitfall isn’t just a theoretical gotcha—it’s a real performance killer in data-intensive systems. At Mosaic, fixing
+the `Random` issue unlocked smoother real-time analytics, empowering traders with faster insights. At Co-op, it
+streamlined price data processing, keeping reports timely. Clean, performant code is my north star, and
+`ThreadLocalRandom` is a simple swap that delivers outsized gains.
+
+If you’re working on Spring Boot apps, Kafka pipelines, or any multi-threaded Java system, audit your random number
+usage. A quick switch to `ThreadLocalRandom` could save you hours of debugging and keep your users happy. Start small:
+profile your app, test `ThreadLocalRandom` in a feature branch, and measure the impact. For more on Java’s random number
+generators, check Oracle’s docs or [contact me here]({{ site.baseurl }}/contact/).
+
+Have you hit performance snags with `Random`? Share your war stories [here]({{ site.baseurl }}/contact/) or reach out
+for advice. I’d love to hear how you’re tackling these challenges!
 
 <p class="text-center">
 {% include elements/button.html link="https://www.java.com/en/" text="Java" %}

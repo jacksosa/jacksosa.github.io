@@ -110,8 +110,10 @@ seamlessly with CI/CD and clean code practices. By branching often, committing c
 delivered features faster and with fewer bugs, whether deploying to Kubernetes or optimizing smart meter workflows.
 
 If you’re struggling with chaotic Git workflows, try GitHub Flow. Start with a single feature branch, write clear
-commits, and open a PR early. For more details, check GitHub’s official guide, it’s been a lifesaver for me. Have you
-used GitHub Flow in your projects? Share your tips with me or ask for workflow advice!
+commits, and open a PR early. For more details, check GitHub’s official guide, it’s been a lifesaver for me.
+
+Have you used GitHub Flow in your projects? Share your tips with me [here]({{ site.baseurl }}/contact/) or let me know
+if you want workflow advice!
 
 <p class="text-center">
 {% include elements/button.html
