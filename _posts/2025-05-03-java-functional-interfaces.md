@@ -2,7 +2,7 @@
 title: Java | Functional Interfaces for Cleaner Code
 tags: [ Java, Functional Programming, Lambda Expressions, Spring Boot, Clean Code ]
 style: fill
-color: danger
+color: success
 description: As a Java developer, I’ve used functional interfaces to streamline projects like Mosaic Smart Data’s real-time pipeline. Here’s my guide to mastering them for cleaner, more maintainable code.
 ---
 

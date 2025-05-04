@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="added post for javadoc code snippets and updated other post for contact here link">
-      <change afterPath="$PROJECT_DIR$/_posts/2025-05-03-java-immutables.md" afterDir="false" />
+    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="added post for java records">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2025-05-03-java-functional-interfaces.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-05-03-java-functional-interfaces.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2025-05-04-java-records.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-05-04-java-records.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +133,9 @@
     <MESSAGE value="added space for author name hire me page" />
     <MESSAGE value="added post for random pitfall java" />
     <MESSAGE value="added post for javadoc code snippets and updated other post for contact here link" />
-    <option name="LAST_COMMIT_MESSAGE" value="added post for javadoc code snippets and updated other post for contact here link" />
+    <MESSAGE value="added post for immutable objects in java" />
+    <MESSAGE value="added post for functional interfaces in java" />
+    <MESSAGE value="added post for java records" />
+    <option name="LAST_COMMIT_MESSAGE" value="added post for java records" />
   </component>
 </project>

@@ -1,8 +1,8 @@
 ---
 title: Java | Records for Simpler, Cleaner Code
 tags: [ Java, Records, Clean Code, Spring Boot, Immutability ]
-style: fill
-color: danger
+style: border
+color: dark
 description: As a Java developer, I’ve used records to cut boilerplate in projects like Mosaic Smart Data’s pipeline. Here’s my beginner-friendly guide to mastering Java records.
 ---
 
