@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="added pub/sud aws post">
-      <change afterPath="$PROJECT_DIR$/_posts/2025-05-06-java-creating-hashes.md" afterDir="false" />
+    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="added creating hashes post">
+      <change afterPath="$PROJECT_DIR$/_posts/2025-05-06-java-checked-exceptions.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +112,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="WIP building content" />
     <MESSAGE value="add academicpages template" />
     <MESSAGE value="removed workflows" />
     <MESSAGE value="update to Jalpc template" />
@@ -137,6 +136,7 @@
     <MESSAGE value="added post for java records" />
     <MESSAGE value="post color change" />
     <MESSAGE value="added pub/sud aws post" />
-    <option name="LAST_COMMIT_MESSAGE" value="added pub/sud aws post" />
+    <MESSAGE value="added creating hashes post" />
+    <option name="LAST_COMMIT_MESSAGE" value="added creating hashes post" />
   </component>
 </project>
