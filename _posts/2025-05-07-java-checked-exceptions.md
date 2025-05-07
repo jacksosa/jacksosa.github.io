@@ -2,7 +2,7 @@
 title: Java | Why I Avoid Checked Exceptions
 tags: [ Java, Exceptions, Clean Code, Spring Boot ]
 style: fill
-color: info
+color: primary
 description: As a Java developer, I’ve ditched checked exceptions - here’s why they’re a hassle and how to handle exceptions better.
 ---
 
