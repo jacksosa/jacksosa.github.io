@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="post color change">
-      <change afterPath="$PROJECT_DIR$/_posts/2025-05-05-spring-cloud-sns-sqs-pubsub.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/posts/spring-cloud-sns-sqs-pubsub.png" afterDir="false" />
+    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="added pub/sud aws post">
+      <change afterPath="$PROJECT_DIR$/_posts/2025-05-06-java-creating-hashes.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHELLCHECK.PATH": "C:\\Users\\sam1_\\AppData\\Roaming\\JetBrains\\IdeaIC2024.2\\plugins\\Shell Script\\shellcheck.exe",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/TrinityLogic/IDE/jacksosa.github.io/assets/images/posts",
+    "last_opened_file_path": "C:/TrinityLogic/IDE/jacksosa.github.io/_posts",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -68,8 +67,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\assets\images\posts" />
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\_posts" />
+      <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\assets\images\posts" />
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\pages" />
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\_projects" />
       <recent name="C:\TrinityLogic\IDE\jacksosa.github.io\assets\images" />
@@ -137,6 +136,7 @@
     <MESSAGE value="added post for functional interfaces in java" />
     <MESSAGE value="added post for java records" />
     <MESSAGE value="post color change" />
-    <option name="LAST_COMMIT_MESSAGE" value="post color change" />
+    <MESSAGE value="added pub/sud aws post" />
+    <option name="LAST_COMMIT_MESSAGE" value="added pub/sud aws post" />
   </component>
 </project>
