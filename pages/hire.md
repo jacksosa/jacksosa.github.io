@@ -45,7 +45,7 @@ Best regards,
 
 - **Location**: Poulton-Le-Fylde, Lancashire, United Kingdom
 - **Email**: <a href="mailto:{{ site.author.email }}">{{ site.author.name }}</a>
-- **GitHub**: <a href="{{ site.author.github }}">{{ site.author.github }}</a>
+- **GitHub**: <a href="https://github.com/{{ site.author.github }}">{{ site.author.github }}</a>
 - **Website**: <a href="{{ site.author.website }}">{{ site.author.website }}</a>
 - **Mobile**: {{ site.author.mobile }}
 
