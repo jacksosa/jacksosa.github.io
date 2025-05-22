@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="updated color for checked exceptions post">
-      <change afterPath="$PROJECT_DIR$/_posts/2025-05-21-apache-http-client-classic-apis.md" afterDir="false" />
+    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="apache http client classic api guide">
+      <change afterPath="$PROJECT_DIR$/_posts/2025-05-22-java-pattern-matching-optional.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2025-05-21-apache-http-client-classic-apis.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-05-21-apache-http-client-classic-apis.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +30,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -112,7 +114,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="update to Jalpc template" />
     <MESSAGE value="cfg update and fav icon" />
     <MESSAGE value="profile phot update" />
     <MESSAGE value="started project section - betfair api project added" />
@@ -137,6 +138,7 @@
     <MESSAGE value="added creating hashes post" />
     <MESSAGE value="added checked exceptions post" />
     <MESSAGE value="updated color for checked exceptions post" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated color for checked exceptions post" />
+    <MESSAGE value="apache http client classic api guide" />
+    <option name="LAST_COMMIT_MESSAGE" value="apache http client classic api guide" />
   </component>
 </project>

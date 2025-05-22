@@ -2,7 +2,7 @@
 title: Apache HttpClient Classic APIs | A Quick Guide
 tags: [ Java, HttpClient, Apache, APIs, HTTP ]
 style: fill
-color: primary
+color: info
 description: As a Java developer, I’ve used Apache HttpClient Classic APIs to handle HTTP requests. Here’s my guide to mastering HTTP requests with Apache HttpClient Classic APIs, with real-world tips.
 ---
 
