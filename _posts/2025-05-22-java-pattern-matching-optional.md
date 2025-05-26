@@ -1,7 +1,7 @@
 ---
 title: Java | Pattern match Optional in Java 21
 tags: [ Java, Pattern Matching, Optional, Java 21 ]
-style: fill
+style: border
 color: dark
 description: A trick to get pattern matching on Optional in Java 21, but one you'll probably never actually use.
 ---
