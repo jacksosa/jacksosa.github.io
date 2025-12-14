@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="spring retry post">
-      <change afterPath="$PROJECT_DIR$/_projects/(6) Lizzie Hermolle Website.md" afterDir="false" />
+    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="Added lizzie-hermolle website project">
+      <change afterPath="$PROJECT_DIR$/_projects/(7) DWP Digital.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHELLCHECK.PATH": "C:\\Users\\sam1_\\AppData\\Roaming\\JetBrains\\IdeaIC2024.2\\plugins\\Shell Script\\shellcheck.exe",
     "git-widget-placeholder": "main",
@@ -65,6 +66,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -87,7 +89,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28238.7" />
       </set>
     </attachedChunks>
   </component>
@@ -100,6 +103,7 @@
       <updated>1745387247063</updated>
       <workItem from="1759818661924" duration="2167000" />
       <workItem from="1760070222630" duration="36000" />
+      <workItem from="1765690249122" duration="887000" />
     </task>
     <task id="LOCAL-00001" summary="spring retry post">
       <option name="closed" value="true" />
@@ -109,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759820219732</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added lizzie-hermolle website project">
+      <option name="closed" value="true" />
+      <created>1762066564602</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1762066564602</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +152,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="started project section - betfair api project added" />
     <MESSAGE value="continued project section with the addition of: -&#10;(1) Betfair API Trading Strategy Project.md&#10;(2) Mosaic Smart Data Realtime API Project.md&#10;(3) ESG Global BOL Engine Project.md&#10;(4) Ribby Hall DWH Project.md&#10;(5) Co-op Competitor Pricing Reports Project.md" />
     <MESSAGE value="started blog section, updated: -&#10;2025-03-20-digital-minimalism.md&#10;2025-04-27-how-to-undo-your-git-failure.md" />
     <MESSAGE value="started blog section, updated: -&#10;2025-03-20-digital-minimalism.md&#10;2025-04-26-github-flow.md&#10;2025-04-28-clean-coding.md" />
@@ -165,6 +176,15 @@
     <MESSAGE value="apache http client classic api guide" />
     <MESSAGE value="java pattern matching optional post" />
     <MESSAGE value="spring retry post" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring retry post" />
+    <MESSAGE value="Added lizzie-hermolle website project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added lizzie-hermolle website project" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
