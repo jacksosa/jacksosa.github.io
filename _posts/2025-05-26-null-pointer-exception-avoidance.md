@@ -2,7 +2,7 @@
 title: Java | Java NullPointerException Avoidance and Enhancement Tactics
 tags: [ Java, NullPointerException, TimeUnit, Objects, String, Enum, Clean Code ]
 style: fill
-color: primary
+color: warning
 description: A guide to avoiding NullPointerExceptions in Java, with practical tips and techniques to enhance code quality.
 ---
 

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="Add Hexagonal vs Clean Architecture blog post">
+    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="Update Java NullPointerException Avoidance blog post styling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2025-12-15-hexagonal-architecture.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-12-15-hexagonal-architecture.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2025-12-20-hexagonal-vs-clean-architecture.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-12-20-hexagonal-vs-clean-architecture.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2025-05-26-null-pointer-exception-avoidance.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-05-26-null-pointer-exception-avoidance.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,8 +89,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
-        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28238.7" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28539.13" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28539.13" />
       </set>
     </attachedChunks>
   </component>
@@ -107,7 +106,8 @@
       <workItem from="1765690249122" duration="1225000" />
       <workItem from="1765778229764" duration="604000" />
       <workItem from="1765955921497" duration="1201000" />
-      <workItem from="1766210141138" duration="1775000" />
+      <workItem from="1766210141138" duration="1919000" />
+      <workItem from="1766212616344" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="spring retry post">
       <option name="closed" value="true" />
@@ -157,7 +157,23 @@
       <option name="project" value="LOCAL" />
       <updated>1766211191962</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update blog posts: Hexagonal Architecture &amp; Hexagonal vs Clean Architecture">
+      <option name="closed" value="true" />
+      <created>1766212370204</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1766212370204</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Update Java NullPointerException Avoidance blog post styling">
+      <option name="closed" value="true" />
+      <created>1766212496081</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1766212496081</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,8 +204,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="added contact page" />
-    <MESSAGE value="added home page" />
     <MESSAGE value="update home page link" />
     <MESSAGE value="added testimonials.md" />
     <MESSAGE value="added rss feed" />
@@ -213,7 +227,9 @@
     <MESSAGE value="Add DWP Digital – New Style JSA Modernisation Program timeline entry" />
     <MESSAGE value="Add Hexagonal Architecture blog post" />
     <MESSAGE value="Add Hexagonal vs Clean Architecture blog post" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Hexagonal vs Clean Architecture blog post" />
+    <MESSAGE value="Update blog posts: Hexagonal Architecture &amp; Hexagonal vs Clean Architecture" />
+    <MESSAGE value="Update Java NullPointerException Avoidance blog post styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Java NullPointerException Avoidance blog post styling" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
