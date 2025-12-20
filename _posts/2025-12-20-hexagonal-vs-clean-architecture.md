@@ -1,8 +1,8 @@
 ---
 title: Architecture | Hexagonal vs Clean Architecture in Spring Boot
 tags: [ Architecture, Hexagonal Architecture, Clean Architecture, Spring Boot ]
-style: border
-color: secondary
+style: fill
+color: primary
 description: A practical comparison of Hexagonal and Clean Architecture, based on real-world Spring Boot systems.
 ---
 

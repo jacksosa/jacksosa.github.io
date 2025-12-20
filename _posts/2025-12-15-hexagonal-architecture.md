@@ -1,8 +1,8 @@
 ---
 title: Architecture | Hexagonal Architecture for Real-World Systems
 tags: [ Architecture, Hexagonal Architecture, Clean Code, Spring Boot, Microservices ]
-style: border
-color: dark
+style: fill
+color: success
 description: After years of building event-driven systems in finance, energy, and government, Hexagonal Architecture has become my default for keeping complex systems testable, resilient, and adaptable.
 ---
 
