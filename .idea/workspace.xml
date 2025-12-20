@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="Add DWP Digital – New Style JSA Modernisation Programme documentation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/timeline.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/timeline.yml" afterDir="false" />
-    </list>
+    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="Add DWP Digital – New Style JSA Modernisation Program timeline entry" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +103,7 @@
       <workItem from="1765690249122" duration="1225000" />
       <workItem from="1765778229764" duration="604000" />
       <workItem from="1765955921497" duration="1201000" />
-      <workItem from="1766210141138" duration="396000" />
+      <workItem from="1766210141138" duration="771000" />
     </task>
     <task id="LOCAL-00001" summary="spring retry post">
       <option name="closed" value="true" />
@@ -132,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765691294202</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add DWP Digital – New Style JSA Modernisation Program timeline entry">
+      <option name="closed" value="true" />
+      <created>1766210713383</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1766210713383</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +168,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="started blog section, updated: -&#10;2025-03-20-digital-minimalism.md&#10;2025-04-27-how-to-undo-your-git-failure.md" />
     <MESSAGE value="started blog section, updated: -&#10;2025-03-20-digital-minimalism.md&#10;2025-04-26-github-flow.md&#10;2025-04-28-clean-coding.md" />
     <MESSAGE value="profile update" />
     <MESSAGE value="added contact page" />
@@ -188,7 +192,8 @@
     <MESSAGE value="spring retry post" />
     <MESSAGE value="Added lizzie-hermolle website project" />
     <MESSAGE value="Add DWP Digital – New Style JSA Modernisation Programme documentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add DWP Digital – New Style JSA Modernisation Programme documentation" />
+    <MESSAGE value="Add DWP Digital – New Style JSA Modernisation Program timeline entry" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add DWP Digital – New Style JSA Modernisation Program timeline entry" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
