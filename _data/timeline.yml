@@ -1,6 +1,12 @@
+- title: Software Engineer, DWP Digital, Remote
+  from: 2025
+  to: Present (12-month contract)
+  description: >-
+    Currently engaged on a 12-month contract with DWP Digital, working on the modernisation of the New Style Jobseeker’s Allowance (JSA) platform, delivering a resilient, event-driven digital service that manages the full claimant journey from initial application and eligibility assessment through to ongoing bi-monthly payments. The system is built using a Spring Boot microservices architecture with Apache Kafka enabling asynchronous, decoupled workflows and MongoDB providing flexible persistence of claimant state. Services are structured using Hexagonal (Ports and Adapters) Architecture, ensuring clear separation between domain logic and external concerns such as messaging, persistence, and integration, enabling strong testability, maintainability, and long-term evolution of the platform. The solution operates at national scale with a strong emphasis on idempotent processing, fault tolerance, and recoverability, meeting the reliability and governance requirements of a mission-critical UK public service.
+
 - title: Software Engineer, SJ Ltd, Remote
   from: 2024
-  to: present
+  to: 2025
   description: >-
     Architected a high-frequency trading framework for the Betfair Exchange, utilizing a Spring Boot event-driven architecture integrated with Betfair’s Exchange and Streaming APIs. Designed and implemented automated trading strategies driven by proprietary metrics, including Weight of Money trends, Last Traded Price dynamics, price velocity, and order flow imbalance, ensuring rapid and precise trade execution. Leveraged Java, Spring Boot, and AWS to deliver a scalable, real-time data processing system. Established a robust CI/CD pipeline using GitHub Actions, facilitating seamless integration, automated testing, and deployment to AWS infrastructure, enhancing performance and reliability in dynamic betting markets.
 
