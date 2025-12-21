@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="Update Java NullPointerException Avoidance blog post styling">
+      <change afterPath="$PROJECT_DIR$/_posts/2025-12-20-oo-vs-fp.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2025-05-26-null-pointer-exception-avoidance.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-05-26-null-pointer-exception-avoidance.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,8 @@
       <workItem from="1765778229764" duration="604000" />
       <workItem from="1765955921497" duration="1201000" />
       <workItem from="1766210141138" duration="1919000" />
-      <workItem from="1766212616344" duration="24000" />
+      <workItem from="1766212616344" duration="76000" />
+      <workItem from="1766295299704" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="spring retry post">
       <option name="closed" value="true" />
@@ -173,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766212496081</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update Java NullPointerException Avoidance blog post styling">
+      <option name="closed" value="true" />
+      <created>1766212687265</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1766212687266</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
