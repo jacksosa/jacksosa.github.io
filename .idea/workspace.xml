@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="Update Java NullPointerException Avoidance blog post styling">
-      <change afterPath="$PROJECT_DIR$/_posts/2025-12-20-oo-vs-fp.md" afterDir="false" />
+    <list default="true" id="8660fae8-6d43-4e97-a957-0695504c8353" name="Changes" comment="Update OO vs FP blog post formatting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2025-12-20-oo-vs-fp.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2025-12-20-oo-vs-fp.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +108,7 @@
       <workItem from="1765955921497" duration="1201000" />
       <workItem from="1766210141138" duration="1919000" />
       <workItem from="1766212616344" duration="76000" />
-      <workItem from="1766295299704" duration="303000" />
+      <workItem from="1766295299704" duration="902000" />
     </task>
     <task id="LOCAL-00001" summary="spring retry post">
       <option name="closed" value="true" />
@@ -182,7 +182,23 @@
       <option name="project" value="LOCAL" />
       <updated>1766212687266</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add OO vs FP blog post">
+      <option name="closed" value="true" />
+      <created>1766295646298</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1766295646298</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update OO vs FP blog post formatting">
+      <option name="closed" value="true" />
+      <created>1766295924753</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1766295924753</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,8 +229,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
-    <MESSAGE value="update home page link" />
-    <MESSAGE value="added testimonials.md" />
     <MESSAGE value="added rss feed" />
     <MESSAGE value="added hire me page" />
     <MESSAGE value="added space for author name hire me page" />
@@ -238,7 +252,9 @@
     <MESSAGE value="Add Hexagonal vs Clean Architecture blog post" />
     <MESSAGE value="Update blog posts: Hexagonal Architecture &amp; Hexagonal vs Clean Architecture" />
     <MESSAGE value="Update Java NullPointerException Avoidance blog post styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Java NullPointerException Avoidance blog post styling" />
+    <MESSAGE value="Add OO vs FP blog post" />
+    <MESSAGE value="Update OO vs FP blog post formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update OO vs FP blog post formatting" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
