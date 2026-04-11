@@ -3,16 +3,10 @@ title: Java | Functional Interfaces for Cleaner Code
 tags: [ Java, Functional Programming, Lambda Expressions, Spring Boot, Clean Code ]
 style: fill
 color: success
-description: As a Java developer, I’ve used functional interfaces to streamline projects like Mosaic Smart Data’s real-time pipeline. Here’s my guide to mastering them for cleaner, more maintainable code.
+description: Java Functional Interfaces deep dive — Predicate, Function, Consumer, Supplier, BiFunction, and more. Practical examples with lambdas, method references, and stream pipelines from real-world Spring Boot applications.
 ---
 
-As a Java developer who’s built systems like Mosaic Smart Data’s real-time API pipeline, Co-op’s competitor pricing
-reports, ESG Global’s BOL Engine, and Ribby Hall Village’s data warehouse, I’ve seen Java 8’s functional interfaces turn
-clunky code into elegant solutions. Early in my career, I’d slog through verbose anonymous classes for tasks like
-filtering Kafka streams or mapping pricing data in Spring Boot services, which bloated my codebase. Then functional
-interfaces and lambda expressions came along, slashing boilerplate and making my code sing. From processing trade events
-to crunching 50,000 product prices, these tools have been my secret weapon. Here’s my take on functional interfaces,
-packed with examples from my projects and lessons I’ve learned the hard way.
+Java 8’s functional interfaces transformed the way I write Java — and I’ve felt that impact across every project I’ve worked on since. At Mosaic Smart Data, they streamlined high-throughput Kafka stream processing. At Co-op, they simplified the transformation of 50,000 product prices per run. Before Java 8, the same work required verbose anonymous classes that bloated the codebase and obscured intent. Lambda expressions and functional interfaces cut through that noise. Here’s how I use them, drawn from real-world experience across finance, energy, retail, and government systems.
 
 ## What is Functional Programming?
 

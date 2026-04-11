@@ -1,59 +1,51 @@
 ---
 name: DWP Digital – New Style JSA Modernisation Programme
-tools: [ Java, Spring Boot, Kafka, MongoDB, AWS, REST, Event-Driven Architecture ]
+tools: [Java, Spring Boot, Apache Kafka, MongoDB, AWS, REST, Hexagonal Architecture]
 image: /assets/images/dwp-digital.png
-description: A major DWP Digital programme to modernise the New Style Jobseeker’s Allowance (JSA) platform, improving resilience, scalability, and policy agility through cloud-native, event-driven architecture.
+description: A major DWP Digital programme to modernise the New Style Jobseeker's Allowance platform — improving resilience, scalability, and policy agility through cloud-native, event-driven microservices architecture.
 ---
 
 # DWP Digital – New Style JSA Modernisation Programme
 
-This engagement with DWP Digital focuses on the modernisation of one of the UK government’s core benefits platforms: New
-Style Jobseeker’s Allowance (JSA).
-The programme is part of a wider digital transformation initiative aimed at replacing legacy constraints with a
-resilient, scalable, and policy-responsive architecture capable of supporting millions of citizens reliably and
-securely.
+DWP Digital is responsible for the technology platforms that support millions of UK citizens accessing the benefits system. The New Style Jobseeker's Allowance (JSA) platform is one of those critical services — managing the full claimant journey from initial application and eligibility assessment through to ongoing bi-monthly payments.
 
-The work centres on evolving the platform toward cloud-native, event-driven services, improving operational robustness,
-simplifying policy change, and ensuring the system can meet current and future demand with confidence.
+My current engagement, which began in 2025 on a 12-month contract, sits within the programme modernising this platform — replacing legacy constraints with a resilient, event-driven architecture capable of meeting present and future demand at national scale.
 
-## Key Contributions
+## The Challenge
 
-- **Legacy Modernisation**: Contributing to the redesign and refactoring of legacy components into modern Spring Boot
-  services, reducing technical debt and improving long-term maintainability.
-- **Event-Driven Architecture**: Supporting the adoption of Kafka-based asynchronous processing to decouple core
-  workflows, improve throughput, and increase system resilience under load.
-- **Scalable Data Processing**: Working with MongoDB-backed services to handle high-volume benefit and entitlement data
-  with predictable performance characteristics.
-- **Cloud-First Delivery**: Developing services designed for AWS deployment, with an emphasis on horizontal scalability,
-  fault tolerance, and operational transparency.
-- **Resilience & Idempotency**: Designing and implementing patterns to ensure safe reprocessing, exactly-once business
-  outcomes, and graceful recovery from partial failures.
-- **Policy-Driven Design**: Supporting domain-led service boundaries that allow benefit rules and eligibility logic to
-  evolve without destabilising the wider platform.
-- **API-Led Integration**: Building and consuming RESTful APIs to integrate cleanly with upstream and downstream DWP
-  services, enabling clearer ownership and separation of concerns.
-- **Quality & Assurance**: Applying strong engineering discipline through automated testing, code review, and adherence
-  to DWP Digital and GDS standards.
-- **Multi-Team Collaboration**: Working closely with product managers, architects, testers, and policy stakeholders
-  within a large-scale, multi-supplier delivery environment.
-- **Production Readiness**: Ensuring services are observable, supportable, and compliant with operational requirements
-  before release.
+Benefits platforms carry a unique combination of requirements that make them architecturally demanding: they must be completely reliable (a missed payment affects a citizen's livelihood), highly testable (policy changes need to be safely deployable without regressions), and capable of evolving rapidly as legislation changes. The legacy platform made all three of these harder than they needed to be.
 
-## Outtomes and Value:
+The modernisation programme is addressing this by rebuilding the platform's core services on Spring Boot microservices, Apache Kafka, and MongoDB — structured around Hexagonal (Ports and Adapters) Architecture to keep domain logic clean and isolated from the infrastructure concerns that tend to erode it over time.
 
-- Improved system resilience for a nationally critical benefit.
-- Greater flexibility to respond to policy and legislative change.
-- Reduced operational risk through decoupled, fault-tolerant design.
-- A platform foundation capable of future expansion and reform.
-- This programme exemplifies large-scale, mission-critical digital delivery where engineering quality, operational
-  resilience, and societal impact are equally important.
+## My Contributions
 
-<p class="text-center"> 
-{% include elements/button.html link="https://www.gov.uk/government/organisations/department-for-work-pensions" text="Department for Work & Pensions" %} 
-{% include elements/button.html link="https://www.gov.uk/service-manual" text="GDS Service Manual" %} 
-{% include elements/button.html link="https://spring.io/projects/spring-boot" text="Spring Boot" %} 
-{% include elements/button.html link="https://kafka.apache.org/" text="Apache Kafka" %} 
-{% include elements/button.html link="https://www.mongodb.com/" text="MongoDB" %} 
-{% include elements/button.html link="https://aws.amazon.com/" text="AWS" %} 
-{% include elements/button.html link="https://www.java.com/" text="Java" %} 
+- **Legacy Modernisation**: Redesigning and refactoring legacy components into modern, well-tested Spring Boot services — reducing technical debt and improving the platform's long-term maintainability.
+- **Event-Driven Architecture**: Implementing Kafka-based asynchronous workflows to decouple core claimant processing steps, improving throughput and system resilience under load.
+- **Hexagonal Architecture**: Applying Ports and Adapters patterns to maintain a strict boundary between domain logic and external concerns — messaging, persistence, third-party integration — keeping the domain model clean and independently testable.
+- **Idempotency & Fault Tolerance**: Designing processing patterns that ensure safe reprocessing, exactly-once business outcomes, and graceful recovery from partial failures — essential properties for a payment-processing system.
+- **MongoDB Data Modelling**: Designing document schemas for flexible persistence of claimant state, balancing query performance with the evolving shape of benefit eligibility data.
+- **API-Led Integration**: Building and consuming RESTful APIs to integrate with upstream and downstream DWP services, maintaining clear service ownership and separation of concerns.
+- **Quality & Test Discipline**: Automated test coverage throughout — unit, integration, and contract tests — alongside code review and adherence to DWP Digital and GDS engineering standards.
+- **Multi-Team Delivery**: Working within a large-scale, multi-supplier delivery environment alongside product managers, architects, testers, and policy stakeholders — maintaining alignment across a complex programme.
+
+## Technology Stack
+
+Java, Spring Boot, Apache Kafka, MongoDB, AWS, REST APIs — all structured around Hexagonal Architecture with TDD applied throughout. CI/CD via GitHub Actions with automated deployment to AWS infrastructure.
+
+## Outcomes and Value
+
+- Improved resilience and reliability for a nationally critical benefit platform
+- Greater agility to respond to policy and legislative change without destabilising the wider system
+- Reduced operational risk through decoupled, fault-tolerant event-driven design
+- A platform foundation capable of future expansion and reform at scale
+
+This programme is a clear example of large-scale, mission-critical digital delivery where engineering quality, operational resilience, and real-world societal impact are equally important.
+
+<p class="text-center">
+{% include elements/button.html link="https://www.gov.uk/government/organisations/department-for-work-pensions" text="Department for Work & Pensions" %}
+{% include elements/button.html link="https://www.gov.uk/service-manual" text="GDS Service Manual" %}
+{% include elements/button.html link="https://spring.io/projects/spring-boot" text="Spring Boot" %}
+{% include elements/button.html link="https://kafka.apache.org/" text="Apache Kafka" %}
+{% include elements/button.html link="https://www.mongodb.com/" text="MongoDB" %}
+{% include elements/button.html link="https://aws.amazon.com/" text="AWS" %}
 </p>

@@ -1,0 +1,665 @@
+# Weekly post schedule — 52 posts starting 2026-04-18
+# Each entry is generated automatically by the GitHub Action on the scheduled Saturday
+
+- week: 1
+  title: "Betfair | Getting Started with the Betfair Exchange API in Java"
+  slug: "betfair-exchange-api-java-getting-started"
+  tags: [Java, Betfair, Betting Exchange, Spring Boot, API]
+  color: primary
+  keywords: "Betfair Exchange API Java, Betfair API getting started, Java betting exchange, Betfair API Spring Boot"
+  brief: >
+    A practical introduction to the Betfair Exchange API for Java developers. Cover authentication (SSOID),
+    the non-interactive login flow, listing event types and markets, retrieving runner prices, and placing
+    your first bet. Show concrete Java code using HttpClient or RestTemplate. Include ProTips on sandbox
+    testing and API rate limits. Grounded in experience building a production Betfair trading framework.
+
+- week: 2
+  title: "Java 21 | Virtual Threads and Project Loom — A Practical Guide"
+  slug: "java-21-virtual-threads-project-loom"
+  tags: [Java, Java 21, Virtual Threads, Project Loom, Concurrency]
+  color: success
+  keywords: "Java 21 virtual threads, Project Loom Java, Java virtual threads Spring Boot, Java concurrency"
+  brief: >
+    Deep dive into Java 21 virtual threads. Explain the difference between platform threads and virtual
+    threads, the structured concurrency model, and how to enable virtual threads in a Spring Boot 3 app
+    with a single config change. Show performance benchmarks and discuss where virtual threads shine
+    (IO-bound workloads) vs where they don't help (CPU-bound). Include code examples and ProTips.
+
+- week: 3
+  title: "Betfair | Understanding the Betfair Streaming API in Java"
+  slug: "betfair-streaming-api-java"
+  tags: [Java, Betfair, Streaming API, WebSocket, Spring Boot]
+  color: warning
+  keywords: "Betfair Streaming API Java, Betfair WebSocket Java, real-time market data Betfair, Betfair ESA"
+  brief: >
+    How the Betfair Streaming API works and how to build a persistent WebSocket connection in Java.
+    Cover the ESA (Exchange Streaming API) protocol, authentication, subscription messages, market
+    change messages, runner change messages, and state caching. Show how to maintain a local cache
+    of market state from a delta stream. ProTip on reconnection logic and subscription management.
+
+- week: 4
+  title: "Spring Boot | Deep Dive into Apache Kafka Consumers"
+  slug: "spring-boot-kafka-consumers-deep-dive"
+  tags: [Java, Spring Boot, Apache Kafka, Event-Driven Architecture]
+  color: info
+  keywords: "Spring Boot Kafka consumer, Apache Kafka Java, Kafka consumer groups, Spring Kafka"
+  brief: >
+    A thorough guide to building robust Kafka consumers in Spring Boot. Cover @KafkaListener, consumer
+    groups, partition assignment, manual vs auto commit, error handling with @RetryableTopic, dead letter
+    topics, and idempotent processing. Show real examples from an event-driven financial data pipeline.
+    Include ProTips on ordering guarantees and poison pill handling.
+
+- week: 5
+  title: "Betfair | Weight of Money — Implementing WoM Calculations in Java"
+  slug: "betfair-weight-of-money-java"
+  tags: [Java, Betfair, Trading, Market Analysis, Spring Boot]
+  color: danger
+  keywords: "Weight of Money Betfair Java, WoM trading signal, Betfair market analysis Java"
+  brief: >
+    How to calculate and interpret Weight of Money (WoM) from live Betfair Streaming data in Java.
+    Explain what WoM is, why it matters as a pre-race indicator, how to derive it from available
+    to back and available to lay totals, and how to build a rolling WoM trend signal. Show the
+    Java implementation and how to wire it into a Spring Boot strategy engine. Include caveats
+    about WoM limitations and when the signal is strongest.
+
+- week: 6
+  title: "Testing | Testcontainers for Spring Boot — Real Databases, Real Confidence"
+  slug: "testcontainers-spring-boot-integration-testing"
+  tags: [Java, Spring Boot, Testcontainers, Testing, PostgreSQL, MongoDB]
+  color: secondary
+  keywords: "Testcontainers Spring Boot, integration testing Java, Spring Boot real database test"
+  brief: >
+    Why Testcontainers beats mocked repositories for integration testing, and how to use it in
+    Spring Boot with PostgreSQL and MongoDB. Cover @Testcontainers annotation, static containers,
+    @DynamicPropertySource, and testing Kafka consumers with embedded Kafka vs Testcontainers Kafka.
+    Show the test setup from a real microservices project. ProTip on test speed and container reuse.
+
+- week: 7
+  title: "Betfair | Last Traded Price Dynamics — Reading Market Direction"
+  slug: "betfair-last-traded-price-dynamics-java"
+  tags: [Java, Betfair, Trading, LTP, Market Analysis]
+  color: primary
+  keywords: "Betfair LTP dynamics, Last Traded Price analysis Java, Betfair price velocity, market direction"
+  brief: >
+    How Last Traded Price (LTP) data from the Betfair Streaming API reveals market momentum. Cover
+    LTP vs best available price, how to track LTP movement over time, calculating price velocity
+    (rate of change), and identifying price drift patterns. Show Java code for building a sliding
+    window LTP analyser. Discuss when shortening LTP indicates steam and when it's noise. Include
+    context from live trading experience.
+
+- week: 8
+  title: "Java | CompletableFuture — Mastering Async Programming"
+  slug: "java-completablefuture-async-programming"
+  tags: [Java, CompletableFuture, Async, Concurrency, Spring Boot]
+  color: warning
+  keywords: "Java CompletableFuture, async Java, Java non-blocking, Java parallel execution"
+  brief: >
+    A comprehensive guide to CompletableFuture in Java. Cover thenApply, thenCompose, thenCombine,
+    allOf, anyOf, exceptionally, handle, and whenComplete. Show how to combine multiple async calls,
+    handle exceptions cleanly, use custom executors, and avoid common pitfalls like blocking in
+    CompletableFuture chains. Practical examples from real-time data integration projects.
+
+- week: 9
+  title: "Architecture | Domain-Driven Design in Java Spring Boot"
+  slug: "domain-driven-design-java-spring-boot"
+  tags: [Java, Spring Boot, DDD, Architecture, Clean Code]
+  color: success
+  keywords: "Domain-Driven Design Java, DDD Spring Boot, Java aggregate root, bounded context Java"
+  brief: >
+    A practical DDD guide for Java Spring Boot developers. Cover aggregates, aggregate roots,
+    entities, value objects, domain events, repositories, and bounded contexts. Show how to
+    structure a Spring Boot project around a domain model, keep JPA annotations out of domain
+    objects, and publish domain events via Kafka or Spring's ApplicationEventPublisher. Real
+    examples from a government benefits platform applying Hexagonal + DDD.
+
+- week: 10
+  title: "Betfair | Order Flow Imbalance — A Java Implementation"
+  slug: "betfair-order-flow-imbalance-java"
+  tags: [Java, Betfair, Trading, Order Flow, Market Microstructure]
+  color: danger
+  keywords: "order flow imbalance Betfair, OFI trading signal Java, Betfair market microstructure"
+  brief: >
+    Order flow imbalance (OFI) as a trading signal on Betfair — what it is, how to calculate it
+    from streaming data, and how to build a real-time OFI indicator in Java. Explain the intuition
+    (buy pressure vs sell pressure in the order book), how to normalise it, and how to combine it
+    with WoM and LTP signals. Include the Java implementation and discuss false positives in
+    thin markets.
+
+- week: 11
+  title: "Spring Boot | CQRS Pattern with Kafka and Spring Boot"
+  slug: "cqrs-spring-boot-kafka"
+  tags: [Java, Spring Boot, CQRS, Apache Kafka, Architecture]
+  color: info
+  keywords: "CQRS Spring Boot, CQRS Kafka Java, command query separation Java, event-driven CQRS"
+  brief: >
+    Implementing CQRS (Command Query Responsibility Segregation) in a Spring Boot application with
+    Kafka as the event bus. Cover the command side (write model), the event store, event publishing
+    to Kafka, the query side (read model projections), and eventual consistency trade-offs. Show
+    a working example with clear separation of command and query handlers. ProTip on when CQRS
+    adds value vs when it's over-engineering.
+
+- week: 12
+  title: "Betfair | Building a Spring Boot Trading Strategy Engine"
+  slug: "betfair-spring-boot-trading-strategy-engine"
+  tags: [Java, Spring Boot, Betfair, Trading, Architecture]
+  color: primary
+  keywords: "Betfair trading strategy Java, Spring Boot betting strategy, automated trading Betfair Java"
+  brief: >
+    How to architect a pluggable trading strategy engine in Spring Boot for Betfair. Cover the
+    strategy interface design, event-driven signal evaluation, strategy lifecycle (enter, manage,
+    exit), market state management, and risk controls (max stake, max liability, kill switch).
+    Show how Spring's dependency injection makes strategies swappable and independently testable.
+    Based on a production trading framework design.
+
+- week: 13
+  title: "Java | Sealed Classes and Pattern Matching — Modern Java Features"
+  slug: "java-sealed-classes-pattern-matching"
+  tags: [Java, Java 17, Java 21, Pattern Matching, Sealed Classes]
+  color: secondary
+  keywords: "Java sealed classes, Java pattern matching switch, Java 17 features, Java 21 features"
+  brief: >
+    Sealed classes and pattern matching in switch expressions (Java 17-21). Cover sealed interfaces,
+    permitted subtypes, exhaustive pattern matching, guarded patterns, and record patterns. Show
+    how sealed class hierarchies replace verbose instanceof chains and how the compiler enforces
+    exhaustiveness. Practical use cases: result types, command handlers, event discriminators.
+
+- week: 14
+  title: "Resilience4j | Circuit Breakers, Rate Limiters, and Bulkheads in Spring Boot"
+  slug: "resilience4j-spring-boot-circuit-breaker"
+  tags: [Java, Spring Boot, Resilience4j, Circuit Breaker, Resilience]
+  color: warning
+  keywords: "Resilience4j Spring Boot, circuit breaker Java, rate limiter Spring Boot, bulkhead pattern"
+  brief: >
+    Practical guide to Resilience4j in Spring Boot. Cover @CircuitBreaker, @RateLimiter,
+    @Bulkhead, @TimeLimiter, and @Retry annotations with real configuration examples. Explain
+    the circuit breaker state machine (closed, open, half-open), how to configure failure
+    thresholds, and how to combine resilience patterns. Show monitoring via Actuator and
+    Micrometer. ProTip on testing circuit breakers.
+
+- week: 15
+  title: "Betfair | Placing and Managing Orders with the Betfair API in Java"
+  slug: "betfair-order-management-java"
+  tags: [Java, Betfair, Exchange API, Order Management, Trading]
+  color: danger
+  keywords: "Betfair placeOrders Java, Betfair order management API, Betfair cancelOrders Java, Betfair replaceOrders"
+  brief: >
+    How to place, update, cancel, and replace orders on the Betfair Exchange using the API in Java.
+    Cover placeOrders, updateOrders, cancelOrders, replaceOrders, listCurrentOrders, and
+    listClearedOrders. Explain bet types (back vs lay), size, price, persistence types, and
+    how to handle the transaction ID for reconciliation. Include error handling for insufficient
+    funds, market suspension, and AP errors. From production trading framework experience.
+
+- week: 16
+  title: "Spring Boot | Spring Data MongoDB — Modelling and Querying Documents"
+  slug: "spring-data-mongodb-spring-boot"
+  tags: [Java, Spring Boot, MongoDB, Spring Data, NoSQL]
+  color: success
+  keywords: "Spring Data MongoDB, Spring Boot MongoDB, Java MongoDB queries, MongoRepository Spring"
+  brief: >
+    Using Spring Data MongoDB in a Spring Boot application. Cover @Document modelling, repositories,
+    MongoTemplate for complex queries, aggregation pipelines, indexing, and transactions. Show
+    how to model a real domain (e.g. benefit claimant state or trading positions). ProTip on
+    avoiding the N+1 problem and choosing between repository and template approaches.
+
+- week: 17
+  title: "Betfair | Risk Management in Automated Betting Systems"
+  slug: "betfair-risk-management-automated-systems"
+  tags: [Java, Betfair, Risk Management, Trading, Architecture]
+  color: primary
+  keywords: "Betfair risk management, automated betting risk Java, betting system risk controls"
+  brief: >
+    Risk management architecture for automated Betfair trading systems in Java. Cover per-market
+    stake limits, maximum liability caps, drawdown monitoring, loss recovery prevention,
+    emergency stop (kill switch) implementation, position reconciliation vs expected state,
+    and graceful shutdown on API disconnection. Based on production experience. This is
+    the topic most traders overlook — and the one that matters most.
+
+- week: 18
+  title: "Java | Event Sourcing with Spring Boot and MongoDB"
+  slug: "event-sourcing-spring-boot-mongodb"
+  tags: [Java, Spring Boot, Event Sourcing, MongoDB, Architecture]
+  color: info
+  keywords: "event sourcing Java, event sourcing Spring Boot, event store MongoDB Java, Java CQRS event sourcing"
+  brief: >
+    Implementing event sourcing in Java Spring Boot with MongoDB as the event store. Cover the
+    event store design, appending events, rebuilding aggregate state from events, snapshots for
+    performance, and publishing events to Kafka for downstream projections. Show a complete
+    working example (e.g. a claim lifecycle). Discuss trade-offs vs traditional CRUD.
+
+- week: 19
+  title: "Betdaq | Betdaq API Integration for Java Developers"
+  slug: "betdaq-api-java-integration"
+  tags: [Java, Betdaq, Betting Exchange, API, Spring Boot]
+  color: warning
+  keywords: "Betdaq API Java, Betdaq Exchange Java, Betdaq integration, Java betting exchange Betdaq"
+  brief: >
+    A practical guide to integrating with the Betdaq Exchange API in Java. Cover authentication,
+    getting markets and prices, placing orders, and managing positions. Compare the Betdaq API
+    with the Betfair API — structure, rate limits, data quality, and liquidity considerations.
+    Show how to build an abstraction layer so strategies can target multiple exchanges.
+    Include ProTips on Betdaq market selection and liquidity patterns.
+
+- week: 20
+  title: "Java | Structured Concurrency in Java 21"
+  slug: "java-21-structured-concurrency"
+  tags: [Java, Java 21, Structured Concurrency, Concurrency, Threading]
+  color: secondary
+  keywords: "Java 21 structured concurrency, StructuredTaskScope Java, Java concurrency Java 21"
+  brief: >
+    Structured concurrency in Java 21 — a better model for managing concurrent tasks. Cover
+    StructuredTaskScope, ShutdownOnFailure, ShutdownOnSuccess, and how structured concurrency
+    prevents thread leaks. Compare with CompletableFuture and show where structured concurrency
+    produces cleaner, more reliable code. Practical examples in a Java Spring Boot context.
+
+- week: 21
+  title: "AWS | AWS Lambda with Spring Boot — Cold Start Optimisation"
+  slug: "aws-lambda-spring-boot-cold-start"
+  tags: [Java, AWS, Lambda, Spring Boot, Serverless]
+  color: danger
+  keywords: "AWS Lambda Spring Boot, Java Lambda cold start, Spring Boot serverless AWS, Lambda Java optimisation"
+  brief: >
+    Deploying Spring Boot applications to AWS Lambda and tackling cold start latency. Cover
+    GraalVM native image, Spring Native, SnapStart, tiered compilation flags, and keeping
+    the Lambda warm. Show actual cold start timings and the impact of each optimisation.
+    Based on experience building serverless AWS architectures for financial data ingestion.
+    ProTip on when Lambda is the wrong choice for Java workloads.
+
+- week: 22
+  title: "Betfair | Pre-Race vs In-Play Trading — Technical Architecture"
+  slug: "betfair-pre-race-vs-in-play-trading-architecture"
+  tags: [Java, Betfair, Trading, In-Play, Architecture]
+  color: primary
+  keywords: "Betfair in-play trading Java, pre-race trading Betfair, Betfair trading architecture Java"
+  brief: >
+    The technical and strategic differences between pre-race and in-play Betfair trading from a
+    Java developer's perspective. Cover market state transitions (pre-off, in-play, suspended,
+    closed), the streaming API's in-play indicators, latency requirements for in-play execution,
+    API rate limit differences, and how to architect a system that handles both modes cleanly.
+    ProTips on in-play execution risk and the importance of position tracking.
+
+- week: 23
+  title: "Spring Boot | Production Observability with Actuator, Micrometer, and Prometheus"
+  slug: "spring-boot-observability-actuator-micrometer-prometheus"
+  tags: [Java, Spring Boot, Observability, Prometheus, Micrometer, Actuator]
+  color: success
+  keywords: "Spring Boot Actuator, Micrometer Prometheus, Spring Boot observability, Spring Boot metrics"
+  brief: >
+    Building production-grade observability into Spring Boot applications. Cover Spring Boot
+    Actuator health endpoints, custom health indicators, Micrometer metrics (counters, gauges,
+    timers, distribution summaries), exporting to Prometheus, and creating Grafana dashboards.
+    Show how to instrument business-level metrics (e.g. Kafka message throughput, order placement
+    latency). Based on monitoring real-time financial data pipelines.
+
+- week: 24
+  title: "Smarkets | Smarkets API Integration for Java Developers"
+  slug: "smarkets-api-java-integration"
+  tags: [Java, Smarkets, Betting Exchange, API, Spring Boot]
+  color: info
+  keywords: "Smarkets API Java, Smarkets Exchange Java, Smarkets integration developer, Java Smarkets"
+  brief: >
+    Integrating with the Smarkets Exchange API in Java. Cover the REST API and streaming API,
+    authentication, market browsing, order placement, and settlement. Compare Smarkets'
+    commission structure and liquidity profile with Betfair. Discuss building a multi-exchange
+    abstraction in Java so strategies can target Smarkets alongside Betfair. ProTips on
+    Smarkets' API quirks and market selection.
+
+- week: 25
+  title: "Java | Java Memory Management and GC Tuning for Low-Latency Systems"
+  slug: "java-memory-management-gc-tuning-low-latency"
+  tags: [Java, JVM, GC, Performance, Low Latency]
+  color: warning
+  keywords: "Java GC tuning, Java low latency JVM, ZGC Java, Java heap tuning, Java garbage collection"
+  brief: >
+    JVM memory management and GC tuning for Java applications where latency matters — like
+    real-time trading systems and financial data pipelines. Cover the G1GC and ZGC collectors,
+    key JVM flags for reducing GC pause times, object allocation pressure, off-heap memory,
+    and monitoring GC with JFR and GC logs. ProTip on what GC settings I've used in
+    production Betfair trading systems.
+
+- week: 26
+  title: "AWS | Infrastructure as Code with AWS CDK and Java"
+  slug: "aws-cdk-java-infrastructure-as-code"
+  tags: [Java, AWS, CDK, Infrastructure as Code, Cloud]
+  color: danger
+  keywords: "AWS CDK Java, infrastructure as code Java, AWS CDK Spring Boot, Java CDK constructs"
+  brief: >
+    Building AWS infrastructure with the AWS CDK using Java. Cover stacks, constructs, Lambda
+    functions, SQS queues, SNS topics, API Gateway, S3 buckets, and IAM roles — all in Java.
+    Show how to structure a CDK project for a Spring Boot microservice. ProTip on environment-specific
+    configuration and CDK testing with the assertions library. Based on experience provisioning
+    serverless AWS infrastructure for financial data ingestion at Mosaic Smart Data.
+
+- week: 27
+  title: "Spring Boot | Spring Security — JWT Authentication for REST APIs"
+  slug: "spring-security-jwt-rest-api"
+  tags: [Java, Spring Boot, Spring Security, JWT, REST API]
+  color: primary
+  keywords: "Spring Security JWT, Spring Boot JWT authentication, Java JWT REST API, Spring Security stateless"
+  brief: >
+    Implementing JWT-based stateless authentication in Spring Boot REST APIs. Cover the filter
+    chain, a custom JwtAuthenticationFilter, token generation and validation, refresh tokens,
+    role-based access control with @PreAuthorize, and testing secured endpoints. ProTip on
+    storing secrets securely and common JWT pitfalls (algorithm confusion, none algorithm attack).
+
+- week: 28
+  title: "Betfair | Market Suspension Handling in Java Trading Systems"
+  slug: "betfair-market-suspension-handling-java"
+  tags: [Java, Betfair, Trading, Streaming API, Resilience]
+  color: secondary
+  keywords: "Betfair market suspension Java, Betfair suspended market handling, Betfair API resilience"
+  brief: >
+    How to handle market suspension events correctly in a Java Betfair trading system. Cover
+    suspension events in the streaming API, how open positions are affected, safe state management
+    during suspension, re-entry logic after resumption, and in-play suspension patterns in
+    sports markets. Show the Java state machine for handling market lifecycle transitions.
+    From production experience managing suspension in a live trading framework.
+
+- week: 29
+  title: "Apache Kafka | Kafka Consumer Patterns — Idempotency and Exactly-Once Processing"
+  slug: "kafka-consumer-idempotency-exactly-once"
+  tags: [Java, Apache Kafka, Idempotency, Event-Driven Architecture, Spring Boot]
+  color: success
+  keywords: "Kafka exactly-once Java, Kafka idempotent consumer, Spring Boot Kafka exactly-once, Kafka deduplication"
+  brief: >
+    Building idempotent Kafka consumers in Java — the patterns that ensure safe reprocessing
+    without duplicate side effects. Cover idempotency keys, deduplication stores (Redis, DB),
+    Kafka's idempotent producer, transactions with exactly-once semantics, and the outbox
+    pattern. Practical examples from processing benefit claim events at DWP Digital and
+    financial transactions at Mosaic Smart Data.
+
+- week: 30
+  title: "Testing | Mutation Testing with PITest in Java"
+  slug: "mutation-testing-pitest-java"
+  tags: [Java, Testing, PITest, TDD, Code Quality]
+  color: info
+  keywords: "PITest mutation testing Java, mutation testing Spring Boot, Java test quality PITest"
+  brief: >
+    What mutation testing is, why it reveals gaps that code coverage metrics miss, and how to
+    run PITest on a Java Spring Boot project. Cover configuring PITest in Maven, understanding
+    mutation operators, reading reports, and what to do when mutations survive. ProTip on
+    focusing PITest on your domain model for maximum signal. Based on applying TDD across
+    government and financial projects.
+
+- week: 31
+  title: "Java | Text Blocks, String Templates, and Modern String Handling"
+  slug: "java-text-blocks-string-templates"
+  tags: [Java, Java 21, Text Blocks, String Templates, Clean Code]
+  color: warning
+  keywords: "Java text blocks, Java string templates, Java 21 string, Java multiline string"
+  brief: >
+    Text blocks (Java 15) and string templates (Java 21 preview) — how they clean up Java string
+    handling. Cover text block formatting, indentation stripping, the \\ and \s escape sequences,
+    use cases (JSON, SQL, HTML), and string templates with template processors. Show how these
+    features reduce boilerplate in Spring Boot configuration, test data setup, and API clients.
+
+- week: 32
+  title: "Matchbook | Matchbook API Integration for Java Developers"
+  slug: "matchbook-api-java-integration"
+  tags: [Java, Matchbook, Betting Exchange, API, Spring Boot]
+  color: danger
+  keywords: "Matchbook API Java, Matchbook Exchange Java, Matchbook integration developer, Java Matchbook betting"
+  brief: >
+    Integrating with the Matchbook Exchange API in Java. Cover REST authentication, browsing sports
+    and events, retrieving prices, placing and managing orders, and the WebSocket stream for live
+    price updates. Compare with Betfair and Betdaq — Matchbook's strengths (commission-free model,
+    European focus), API structure, and liquidity profile. Show how to add Matchbook to a
+    multi-exchange Java trading system.
+
+- week: 33
+  title: "Java | Performance Profiling with JDK Flight Recorder and Mission Control"
+  slug: "java-profiling-jfr-jdk-mission-control"
+  tags: [Java, Performance, JFR, JDK Mission Control, Profiling]
+  color: primary
+  keywords: "Java Flight Recorder, JDK Mission Control, Java profiling, Java performance analysis"
+  brief: >
+    Using JDK Flight Recorder (JFR) and JDK Mission Control (JMC) to profile Java applications.
+    Cover enabling JFR in production (zero overhead continuous recording), capturing recordings,
+    interpreting flame graphs, identifying allocation hotspots, method profiling, lock contention
+    analysis, and GC event analysis. ProTip on what to look for first in a live Java service that
+    is underperforming.
+
+- week: 34
+  title: "Architecture | Saga Pattern for Distributed Transactions in Spring Boot"
+  slug: "saga-pattern-spring-boot-kafka"
+  tags: [Java, Spring Boot, Saga, Distributed Transactions, Apache Kafka, Architecture]
+  color: secondary
+  keywords: "Saga pattern Java, distributed transaction Spring Boot, Saga choreography Kafka, Spring Boot microservices"
+  brief: >
+    Implementing the Saga pattern for managing distributed transactions across Spring Boot
+    microservices. Cover the choreography-based saga (events via Kafka) vs orchestration-based
+    saga (central coordinator), compensating transactions, failure handling, and saga state
+    persistence. Show a complete worked example: a claimant onboarding flow across identity,
+    eligibility, and payment services.
+
+- week: 35
+  title: "Betfair | Betfair API Rate Limiting — Managing Quotas in High-Frequency Systems"
+  slug: "betfair-api-rate-limiting-java"
+  tags: [Java, Betfair, Rate Limiting, API, Trading]
+  color: success
+  keywords: "Betfair API rate limit, Betfair API quota Java, Betfair API throttling, Betfair API usage"
+  brief: >
+    Betfair's API rate limits and how to manage them in a Java trading system. Cover the
+    data request quotas (application-level and account-level), the Betfair charge model,
+    how to minimise API calls while maintaining data freshness, request batching, the
+    Streaming API as the rate-limit-free alternative for price data, and monitoring
+    API usage against your quota. ProTips from running a high-frequency system.
+
+- week: 36
+  title: "Spring Boot | Spring Cloud Gateway — API Gateway Patterns"
+  slug: "spring-cloud-gateway-api-gateway"
+  tags: [Java, Spring Boot, Spring Cloud Gateway, Microservices, API]
+  color: info
+  keywords: "Spring Cloud Gateway, API gateway Java, Spring Boot gateway microservices, reactive gateway"
+  brief: >
+    Building an API gateway with Spring Cloud Gateway in a Java microservices architecture. Cover
+    route configuration, predicates, filters (request/response modification), rate limiting with
+    Redis, circuit breaking, authentication forwarding, and load balancing. Show a complete
+    gateway configuration for a set of backend services. ProTip on when an API gateway adds
+    value vs when it adds complexity.
+
+- week: 37
+  title: "Java | SequencedCollections and Modern Collection APIs in Java 21"
+  slug: "java-21-sequenced-collections-modern-apis"
+  tags: [Java, Java 21, Collections, Clean Code]
+  color: warning
+  keywords: "Java 21 SequencedCollection, Java collections API Java 21, Java getFirst getLast"
+  brief: >
+    Java 21's SequencedCollection, SequencedSet, and SequencedMap interfaces — what they add
+    and why they matter. Cover getFirst(), getLast(), addFirst(), addLast(), reversed(), and
+    how List, Deque, LinkedHashSet, and LinkedHashMap now implement these. Also cover other
+    modern collection improvements: List.copyOf, Map.entry, Stream.toList(). Show how these
+    tidy up common patterns in real Spring Boot application code.
+
+- week: 38
+  title: "Betfair | Building a Horse Racing Market Data Recorder in Java"
+  slug: "betfair-market-data-recorder-java"
+  tags: [Java, Betfair, Data Recording, Streaming API, Spring Boot]
+  color: danger
+  keywords: "Betfair data recorder Java, Betfair historical data Java, Betfair market recording, Betfair backtesting data"
+  brief: >
+    How to build a Betfair market data recorder in Java that captures live Streaming API data
+    for backtesting and analysis. Cover the recording architecture (stream -> parser -> writer),
+    file format design (efficient binary vs readable JSON), replay capability, data volume
+    management, and how to use recorded data to backtest strategies. ProTip on what data to
+    capture beyond the basics (traded volume breakdown, matched bets timestamps).
+
+- week: 39
+  title: "Testing | BDD with Cucumber and Spring Boot"
+  slug: "bdd-cucumber-spring-boot"
+  tags: [Java, Spring Boot, Cucumber, BDD, Testing]
+  color: primary
+  keywords: "Cucumber Spring Boot, BDD Java Cucumber, behaviour-driven development Spring Boot"
+  brief: >
+    Behaviour-Driven Development with Cucumber in a Spring Boot project. Cover feature file
+    structure, step definitions, Spring context wiring in Cucumber tests, sharing state between
+    steps, and integrating with Testcontainers. Show a complete scenario for a business flow
+    (e.g. benefit eligibility check). ProTip on when BDD adds value and when it's overhead —
+    and how to write scenarios that non-developers can actually understand.
+
+- week: 40
+  title: "Spring Boot | Contract Testing with Spring Cloud Contract"
+  slug: "contract-testing-spring-cloud-contract"
+  tags: [Java, Spring Boot, Spring Cloud Contract, Testing, Microservices]
+  color: secondary
+  keywords: "Spring Cloud Contract, consumer-driven contract testing Java, contract testing microservices Spring Boot"
+  brief: >
+    Consumer-driven contract testing with Spring Cloud Contract in a Java microservices system.
+    Cover the contract DSL (Groovy or YAML), stub generation, the stub runner for consumer tests,
+    and verifier for producer tests. Explain the workflow: consumer writes the contract, producer
+    verifies against it, stubs published to a repository. Show a complete example across a
+    REST producer and a Kafka event producer. ProTip on integrating contract testing into CI/CD.
+
+- week: 41
+  title: "Betfair | Multi-Exchange Abstraction — Supporting Betfair, Betdaq, and Smarkets in One Framework"
+  slug: "multi-exchange-java-abstraction-betfair-betdaq-smarkets"
+  tags: [Java, Betfair, Betdaq, Smarkets, Trading, Architecture]
+  color: success
+  keywords: "multi exchange betting Java, Betfair Betdaq abstraction Java, Java betting exchange framework, exchange agnostic Java"
+  brief: >
+    Designing a Java trading framework that can target multiple betting exchanges — Betfair,
+    Betdaq, Smarkets, and Matchbook — through a common abstraction. Cover the exchange adapter
+    interface design, normalising market data across exchanges, unified order model, arbitrage
+    opportunity detection, and the deployment architecture for multi-exchange operation.
+    Based on real-world experience building exchange-integrated Java systems.
+
+- week: 42
+  title: "Java | CompletableFuture vs Virtual Threads — Choosing the Right Async Model"
+  slug: "completablefuture-vs-virtual-threads-java"
+  tags: [Java, Java 21, CompletableFuture, Virtual Threads, Concurrency]
+  color: info
+  keywords: "CompletableFuture vs virtual threads Java, Java async comparison, Java 21 concurrency model"
+  brief: >
+    When to use CompletableFuture vs virtual threads in Java. Compare the programming models,
+    readability, error handling, debugging experience, and performance characteristics. Show
+    the same use case implemented both ways. Discuss where each shines: CompletableFuture for
+    complex async pipelines, virtual threads for simple concurrent IO. ProTip on migrating
+    existing CompletableFuture code to virtual threads incrementally.
+
+- week: 43
+  title: "Architecture | Idempotency Patterns in Event-Driven Java Systems"
+  slug: "idempotency-patterns-event-driven-java"
+  tags: [Java, Architecture, Idempotency, Kafka, Event-Driven Architecture]
+  color: warning
+  keywords: "idempotency Java, idempotent consumer Kafka Java, event-driven idempotency Spring Boot"
+  brief: >
+    A comprehensive look at idempotency in event-driven Java systems. Cover idempotency keys,
+    at-least-once vs exactly-once delivery, the outbox pattern, deduplication with Redis or
+    a database, Kafka consumer idempotency, and testing idempotent workflows. Include real
+    examples from a government benefit payments system where idempotency is non-negotiable.
+    ProTip on monitoring deduplication hit rates.
+
+- week: 44
+  title: "Betfair | Backtesting Trading Strategies — A Java Framework"
+  slug: "betfair-backtesting-framework-java"
+  tags: [Java, Betfair, Backtesting, Trading, Spring Boot]
+  color: danger
+  keywords: "Betfair backtesting Java, trading strategy backtest Java, Betfair historical data backtest"
+  brief: >
+    How to build a backtesting framework for Betfair trading strategies in Java. Cover loading
+    and replaying recorded streaming data, the simulation engine (realistic order fill modelling,
+    commission calculation, P&L tracking), strategy pluggability, and reporting (Sharpe ratio,
+    drawdown, win rate). Discuss the key limitations of backtesting Betfair (liquidity assumptions,
+    market impact) and how to interpret results realistically.
+
+- week: 45
+  title: "Spring Boot | Multi-Module Maven Project Structure"
+  slug: "spring-boot-multi-module-maven"
+  tags: [Java, Spring Boot, Maven, Architecture, Clean Code]
+  color: primary
+  keywords: "Spring Boot multi-module Maven, Java multi-module project, Maven parent POM Spring Boot"
+  brief: >
+    Structuring a Spring Boot application as a multi-module Maven project. Cover parent POM
+    configuration, dependency management, module dependencies, shared test utilities, and
+    building the application. Show a real structure: API module, domain module, infrastructure
+    module, application module. ProTip on avoiding circular module dependencies and keeping
+    the domain module dependency-free.
+
+- week: 46
+  title: "Betfair | Market Liquidity Analysis — Measuring Tradable Depth in Java"
+  slug: "betfair-market-liquidity-analysis-java"
+  tags: [Java, Betfair, Liquidity, Market Analysis, Trading]
+  color: secondary
+  keywords: "Betfair liquidity Java, Betfair market depth, Betfair available to back lay, liquidity trading"
+  brief: >
+    How to measure and interpret market liquidity on Betfair in a Java trading system. Cover
+    available to back, available to lay, spread analysis, total matched volume as a liquidity
+    proxy, time-to-off liquidity build patterns, and minimum liquidity thresholds for safe
+    automated trading. Show Java code for calculating real-time liquidity metrics from
+    Streaming API data. ProTip on market selection and why thin markets should be avoided.
+
+- week: 47
+  title: "Java | Java Foreign Function and Memory API — Project Panama"
+  slug: "java-foreign-function-memory-api-panama"
+  tags: [Java, Java 21, Project Panama, Native, FFM]
+  color: success
+  keywords: "Java Foreign Function Memory API, Project Panama Java, Java native interop, Java FFM API"
+  brief: >
+    Java's Foreign Function and Memory API (Project Panama) — how to call native code and
+    access off-heap memory without JNI. Cover MemorySegment, Arena, MethodHandles for native
+    function calls, and the jextract tool for generating bindings from C headers. Show a
+    practical example: calling a native library from Java. Discuss when to use FFM vs JNA vs JNI.
+
+- week: 48
+  title: "Betfair | Live Sports Data Integration for Betting Systems"
+  slug: "live-sports-data-integration-betfair-java"
+  tags: [Java, Betfair, Sports Data, API, Trading]
+  color: info
+  keywords: "sports data API Java, live sports data betting, football data API Java, Betfair event data"
+  brief: >
+    Integrating live sports data feeds alongside Betfair market data in a Java trading system.
+    Cover the landscape of sports data providers (Sportradar, Stats Perform, free alternatives),
+    how to correlate sports events with Betfair market IDs, using sports data signals to inform
+    trading decisions (score events, time elapsed, expected goals), and the latency requirements
+    for in-play systems. ProTip on building a resilient sports data consumer.
+
+- week: 49
+  title: "AWS | Deploying Spring Boot to AWS ECS with Fargate"
+  slug: "spring-boot-aws-ecs-fargate-deployment"
+  tags: [Java, Spring Boot, AWS, ECS, Fargate, Docker]
+  color: warning
+  keywords: "Spring Boot AWS ECS Fargate, Java Docker ECS, AWS Fargate Spring Boot deployment"
+  brief: >
+    Deploying a containerised Spring Boot application to AWS ECS with Fargate. Cover
+    Dockerfile optimisation for Java, ECR image publishing, task definition configuration,
+    ECS service setup, ALB integration, environment variable injection via Parameter Store,
+    health checks, and GitHub Actions for automated deployment. ProTip on right-sizing Fargate
+    tasks for Java workloads and reducing cold start impact.
+
+- week: 50
+  title: "Architecture | The Twelve-Factor App Applied to Spring Boot"
+  slug: "twelve-factor-app-spring-boot"
+  tags: [Java, Spring Boot, Architecture, Cloud, Best Practices]
+  color: danger
+  keywords: "twelve factor app Spring Boot, 12 factor Java microservices, cloud-native Java Spring Boot"
+  brief: >
+    Applying the Twelve-Factor App methodology to Spring Boot microservices. Cover each factor:
+    codebase, dependencies, config, backing services, build/release/run, processes, port binding,
+    concurrency, disposability, dev/prod parity, logs, and admin processes. For each, show how
+    Spring Boot supports it and common ways developers accidentally violate it. Based on lessons
+    from building cloud-native services at Mosaic Smart Data and DWP Digital.
+
+- week: 51
+  title: "Betfair | In-Play Betting Automation — Latency, Execution, and Survival"
+  slug: "betfair-in-play-automation-latency-execution"
+  tags: [Java, Betfair, In-Play, Trading, Low Latency]
+  color: primary
+  keywords: "Betfair in-play automation Java, in-play betting latency, Betfair in-play execution, in-play Java trading"
+  brief: >
+    The brutal reality of automated in-play betting on Betfair — and how to build a Java system
+    that can operate in it. Cover Betfair's in-play delay (the 5-second rule and exceptions),
+    API vs Streaming API latency, network location considerations, market suspension cascades
+    during in-play events, and survival strategies (hedging open positions on suspension,
+    emergency exit logic). Based on production in-play trading experience.
+
+- week: 52
+  title: "Reflections | A Year of Java Posts — What I've Learned and What's Next"
+  slug: "year-of-java-posts-reflections"
+  tags: [Java, Career, Software Development, Reflections]
+  color: secondary
+  keywords: "Java developer reflections, senior Java developer blog, Java 2027 outlook"
+  brief: >
+    A reflective post looking back over 52 weeks of writing about Java development, betting
+    exchange systems, architecture, and engineering practices. What topics resonated most,
+    what I was wrong about, what I'd do differently, and what I'm most excited about in
+    Java and the betting exchange space in the year ahead. Personal tone, honest, forward-looking.
+    Include links to the most popular posts and a call to action for readers to get in touch.

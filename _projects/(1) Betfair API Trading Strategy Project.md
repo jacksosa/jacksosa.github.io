@@ -1,48 +1,57 @@
 ---
-name: Betfair API Project
-tools: [Java, Spring, AWS, EC2, S3, Route 53, Python]
+name: Betfair Exchange Automated Trading Framework
+tools: [Java, Spring Boot, AWS, EC2, S3, GitHub Actions, Python]
 image: /assets/images/betfair.png
-description: A project that integrates with Betfair's API to automate betting strategies.
+description: Production-grade Java automated trading framework using Betfair Exchange API and Betfair Streaming API. Spring Boot event-driven architecture with proprietary signal engine covering Weight of Money, LTP dynamics, price velocity, and order flow imbalance.
 ---
 
-# The Betfair API Project
+# Betfair Exchange Automated Trading Framework
 
-This project is a Java-based application that integrates with the Betfair API to automate betting strategies. It leverages Spring for dependency injection and AWS for cloud infrastructure.
-The application is designed to be modular and extensible, allowing for easy integration of new betting strategies and data sources.
-## Features
-- **Real-time Data Ingestion**: The application ingests real-time data from the Betfair API, allowing for up-to-date betting information.
-- **Automated Betting Strategies**: Users can define and implement their own betting strategies, which the application will execute automatically based on real-time data.
-- **Modular Architecture**: The application is designed with a modular architecture, making it easy to add new features and functionality.
-- **Extensive Logging and Monitoring**: The application includes extensive logging and monitoring capabilities, allowing users to track the performance of their betting strategies and make adjustments as needed.
-- **Cloud Deployment**: The application is designed to be deployed on AWS, taking advantage of cloud infrastructure for scalability and reliability.
-- **Test-Driven Development**: The application is developed using test-driven development (TDD) principles, ensuring high code quality and reliability.
-- **Continuous Integration and Deployment**: The application is set up for continuous integration and deployment (CI/CD), allowing for rapid development and deployment of new features.
-- **User-Friendly Interface**: The application includes a user-friendly interface for defining and managing betting strategies, making it accessible to users with varying levels of technical expertise.
-- **Comprehensive Documentation**: The application includes comprehensive documentation, making it easy for users to understand how to use and extend the application.
-- **Security and Compliance**: The application is designed with security and compliance in mind, ensuring that user data is protected and that the application complies with relevant regulations.
-- **Performance Optimization**: The application includes performance optimization features, ensuring that it can handle large volumes of data and high-frequency trading scenarios.
-- **Integration with Other APIs**: The application can be integrated with other APIs, allowing for the use of external data sources and services.
-- **Multi-Platform Support**: The application is designed to work on multiple platforms, including desktop and mobile devices, ensuring accessibility for all users.
-- **User Authentication and Authorization**: The application includes user authentication and authorization features, ensuring that only authorized users can access sensitive data and functionality.
-- **Backup and Recovery**: The application includes backup and recovery features, ensuring that user data is protected and can be restored in the event of a failure.
-- **Integration with Machine Learning Models**: The application can be integrated with machine learning models to enhance betting strategies and improve decision-making.
-- **Support for Multiple Betting Markets**: The application supports multiple betting markets, allowing users to place bets on various sports and events.
-- **Real-time Odds Comparison**: The application includes real-time odds comparison features, allowing users to find the best odds across different betting markets.
-- **Integration with Third-Party Tools**: The application can be integrated with third-party tools and services, allowing users to enhance their betting strategies and improve their overall experience.
-- **Support for Multiple Betting Strategies**: The application supports various betting strategies, including value betting, matched betting, and arbitrage betting, allowing users to choose the best approach for their goals.
-- **Support for Multiple Betting Exchanges**: The application supports multiple betting exchanges, allowing users to place bets on various platforms and take advantage of different odds and markets.
-- **Integration with Sports Analytics Tools**: The application can be integrated with sports analytics tools, providing users with advanced insights and data to inform their betting strategies.
-- **Integration with Sports Data Providers**: The application can be integrated with sports data providers, providing users with real-time data and insights to inform their betting strategies.
+This is the project I'm most proud of — and the one that most distinctly defines my specialism. Built from scratch as a personal venture through SJ Ltd, this production-grade automated trading framework integrates directly with Betfair's Exchange API and Streaming API to execute data-driven betting strategies in real time across pre-race and in-play markets.
+
+The goal was to build a system that could identify and act on genuine market signals faster and more consistently than any manual approach could achieve, while keeping risk controlled and the execution architecture robust enough to run continuously in a live trading environment.
+
+## What It Does
+
+The framework connects to Betfair's Streaming API to consume a continuous, low-latency feed of live market data — prices, traded volumes, order books, and matched amounts — across selected horse racing and sports markets. It processes this data through a configurable strategy engine that evaluates proprietary signals and places orders directly on the exchange via the Exchange API when execution criteria are met.
+
+The system is designed to run headlessly on AWS, handling its own reconnection, state recovery, and error management.
+
+## Key Technical Features
+
+- **Betfair Streaming API Integration**: Persistent WebSocket connection consuming live market data with sub-second latency, with automatic reconnection and subscription management.
+- **Betfair Exchange API Integration**: Full order lifecycle management — place, update, cancel — with position tracking and real-time P&L monitoring per market.
+- **Proprietary Signal Engine**: Strategies driven by configurable metrics including Weight of Money (WoM) trends, Last Traded Price (LTP) dynamics, price velocity, traded volume acceleration, and order flow imbalance.
+- **Event-Driven Architecture**: Spring Boot application with an internal event bus decoupling market data ingestion, signal evaluation, and order execution — allowing strategies to be swapped or updated without touching the core engine.
+- **Pre-race & In-play Support**: Configurable strategy profiles for both pre-race liquidity markets and in-play execution, with automated market state detection and trading window enforcement.
+- **Risk Controls**: Per-market and per-strategy stake limits, maximum liability caps, and automatic trading halt triggers built into the execution layer.
+- **AWS Deployment**: EC2-hosted application with S3-backed persistent state storage, Route 53 for DNS management, and CloudWatch for operational alerting.
+- **CI/CD Pipeline**: GitHub Actions workflow for automated build, test, and deployment to AWS EC2, enabling rapid iteration and rollback capability.
+- **Strategy Backtesting**: Python-based backtesting suite consuming historical Betfair data to evaluate signal performance prior to live deployment.
+- **Operational Observability**: Structured JSON logging, market-level performance summaries, and alerting on anomalous market conditions or execution failures.
+
+## Architecture Overview
+
+The application is structured around three core concerns:
+
+1. **Market Data Layer** — Streaming API consumer normalising raw market data into domain events (price changes, volume updates, market status transitions).
+2. **Strategy Layer** — Pluggable strategy implementations consuming domain events, maintaining per-market state, and emitting execution instructions when signal thresholds are met.
+3. **Execution Layer** — Exchange API client managing order placement, modification, and cancellation with idempotent retry logic and position reconciliation.
+
+This clean separation means strategies can be developed and tested in isolation, and the execution engine can be improved independently of strategy logic.
+
+## Outcome
+
+The framework has run in live production across Betfair horse racing markets. It demonstrated the viability of systematic, data-driven trading on the Betfair Exchange using a purely Java-based stack — and gave me deep, hands-on experience of the operational challenges that distinguish production betting systems from prototypes: latency management, state recovery, API rate limits, and market liquidity dynamics.
+
+This project underpins my claim as a specialist Java developer for betting exchange work. If your project involves Betfair, Betdaq, Smarkets, or Matchbook integration, I'd welcome the conversation.
 
 <p class="text-center">
-{% include elements/button.html link="https://developer.betfair.com/exchange-api/" text="Betfair API Docs" %}
-{% include elements/button.html link="https://www.java.com/en/" text="Java" %}
-{% include elements/button.html link="https://spring.io/" text="Spring" %}
+{% include elements/button.html link="https://developer.betfair.com/exchange-api/" text="Betfair Exchange API" %}
+{% include elements/button.html link="https://developer.betfair.com/exchange-streaming-api/" text="Betfair Streaming API" %}
+{% include elements/button.html link="https://spring.io/projects/spring-boot" text="Spring Boot" %}
 {% include elements/button.html link="https://aws.amazon.com/ec2/" text="AWS EC2" %}
 {% include elements/button.html link="https://aws.amazon.com/s3/" text="AWS S3" %}
-{% include elements/button.html link="https://aws.amazon.com/route53/" text="AWS Route 53" %}
-{% include elements/button.html link="https://aws.amazon.com/cli/" text="AWS CLI" %}
-{% include elements/button.html link="https://aws.amazon.com/sdk-for-java/" text="AWS SDK for Java" %}
-{% include elements/button.html link="https://www.jenkins.io/" text="Jenkins" %}
-{% include elements/button.html link="https://www.github.com/" text="GitHub" %}
+{% include elements/button.html link="https://github.com/features/actions" text="GitHub Actions" %}
+{% include elements/button.html link="https://www.python.org/" text="Python" %}
 </p>

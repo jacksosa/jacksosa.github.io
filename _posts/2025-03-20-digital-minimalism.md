@@ -3,14 +3,13 @@ title: Digital Minimalism | Staying Focused in a Noisy Tech World
 tags: [ Social Media, Minimalism, Technology ]
 style: border
 color: dark
-description: As a Java developer, I’ve learned to manage digital distractions using minimalism principles. Here’s how I use five strategies to stay productive and focused.
+description: Five digital minimalism strategies that help senior developers stay in flow state — managing inbox noise, social media, notifications, and screen time so you have the mental bandwidth for deep technical work.
 ---
 
----
-As a Java developer who’s worked on data-intensive projects like the Mosaic Smart Data realtime-api, Co-op’s
+As a Java developer who’s worked on data-intensive projects like the Mosaic Smart Data real-time API, Co-op’s
 competitor pricing reports, and ESG Global’s smart metering orchestration layer, I’ve spent years navigating complex
-codebases and tight deadlines. But the real challenge isn’t just writing clean code, it’s staying focused in a world of
-constant digital noise. emails, notifications, and social media can derail even the most disciplined coder. That’s where
+codebases and tight deadlines. But the real challenge isn’t just writing clean code — it’s staying focused in a world of
+constant digital noise. Emails, notifications, and social media can derail even the most disciplined developer. That’s where
 digital minimalism comes in:
 
 <p style="text-align: center; margin: 20px 0; font-weight: bold; color: orange;">
@@ -31,7 +30,7 @@ promotional emails or outdated newsletters. A full inbox isn’t just annoying�
 coding. To declutter, I review each subscription email as it arrives. If it’s not directly relevant to my current
 projects (like API docs or team updates) or likely to be useful soon, I scroll to the bottom and hit “unsubscribe.”
 Over time, this has slashed my inbox noise, leaving more mental space for tasks like optimizing a Spring Boot service.
-For subscriptions I keep—like tech newsletters or project alerts. I use unroll.me to bundle them into a single daily
+For subscriptions I keep — like tech newsletters or project alerts — I use unroll.me to bundle them into a single daily
 digest, which I tackle when I’m ready, not when my inbox dictates.
 
 ### 2. Unfollow people on social media
@@ -76,7 +75,7 @@ These tools add a layer of accountability, helping me stay productive without fe
 
 ### Why Digital Minimalism Matters
 
-Digital minimalism isn’t about rejecting technology, it’s about using it deliberately. As a developer, I rely on digital
+Digital minimalism isn’t about rejecting technology — it’s about using it deliberately. As a developer, I rely on digital
 tools for coding, collaboration, and staying current in tech. But without boundaries, they can overwhelm, reducing the
 clarity I need for tasks like architecting a Kubernetes deployment or debugging a REST API integration. By curating my
 digital life, I’ve reclaimed time and focus, which directly translates to better code and happier clients. If you’re

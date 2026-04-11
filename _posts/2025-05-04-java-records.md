@@ -3,16 +3,10 @@ title: Java | Records for Simpler, Cleaner Code
 tags: [ Java, Records, Clean Code, Spring Boot, Immutability ]
 style: border
 color: dark
-description: As a Java developer, I’ve used records to cut boilerplate in projects like Mosaic Smart Data’s pipeline. Here’s my beginner-friendly guide to mastering Java records.
+description: Java Records — a practical guide to replacing boilerplate data classes with immutable, concise records in Java 16+. Covers constructors, validation, factory methods, and when to use records vs classes vs Lombok.
 ---
 
-As a Java developer who’s tackled systems like Mosaic Smart Data’s real-time API pipeline, Co-op’s competitor pricing
-reports, ESG Global’s BOL Engine, and Ribby Hall Village’s data warehouse, I’ve learned that Java records are a
-game-changer for writing clean, concise code. Back when I started, I’d spend hours writing boilerplate for data
-classes—getters, setters, `toString`, you name it. When Java 14 introduced records, I could finally focus on solving
-problems instead of wrestling with syntax. From modeling trade events in Mosaic to handling pricing data at Co-op,
-records have saved me time and headaches. Here’s my beginner-friendly guide to Java records, packed with examples from
-my projects and lessons I’ve learned the hard way.
+One of the most welcome additions in recent Java versions, records have quietly become a staple of my day-to-day Java. Before they arrived in Java 16, writing an immutable data class meant a wall of boilerplate: explicit fields, a constructor, getters, `equals()`, `hashCode()`, and `toString()`. Records collapse all of that into a single line. I’ve used them extensively — from modelling trade events in Mosaic’s real-time pipeline to handling pricing DTOs at Co-op and workflow events in ESG’s orchestration layer. Here’s a practical guide, grounded in how I actually use them.
 
 ## What Are Java Records?
 

@@ -3,14 +3,10 @@ title: Java | Why I Avoid Checked Exceptions
 tags: [ Java, Exceptions, Clean Code, Spring Boot ]
 style: fill
 color: primary
-description: As a Java developer, I’ve ditched checked exceptions - here’s why they’re a hassle and how to handle exceptions better.
+description: Why Java checked exceptions cause more problems than they solve — and how to replace them with clean unchecked exceptions, custom RuntimeException subclasses, and Spring Boot’s @ControllerAdvice for global error handling.
 ---
 
-As a Java developer who’s built systems like Mosaic Smart Data’s real-time API pipeline, Co-op’s competitor pricing
-reports, ESG Global’s BOL Engine, and Ribby Hall Village’s data warehouse, I’ve learned to steer clear of checked
-exceptions. Early on, I wrestled with them in Co-op’s pricing system, writing endless try-catch blocks that bloated my
-code and annoyed my team. Checked exceptions, meant to force error handling, often create more problems than they solve.
-Here’s why I avoid them, with an example from my projects and tips for cleaner exception handling.
+Checked exceptions are one of Java’s more controversial design decisions, and after 20 years of building production systems, I’ve come down firmly on one side: I avoid them wherever I can. Early in my career at Co-op, I inherited a codebase riddled with `throws IOException` chains and try-catch blocks that were catching exceptions just to rethrow them or — worse — swallow them silently. It was noise that obscured the actual error-handling logic. Here’s why I prefer unchecked exceptions, with practical examples of how to handle errors more cleanly.
 
 ## The Problem with Checked Exceptions
 

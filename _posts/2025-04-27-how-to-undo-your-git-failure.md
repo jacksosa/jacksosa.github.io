@@ -3,14 +3,8 @@ title: Git | How to Undo Your Git Failure?
 tags: [Git, Version Control, Development]
 style: fill
 color: warning
-description: Using `git reflog` and `git reset` to Save Your Code
+description: How to recover lost commits, undone resets, and dropped stashes in Git using git reflog and git reset. Step-by-step recovery guide for the most common Git disasters, with practical examples every Java developer will recognise.
 ---
-
----
-
-## How to Undo Your Git Failure?
-
-Using `git reflog` and `git reset` to Save Your Code
 
 Git is a powerful version control system, but it’s not immune to user errors. Whether you’ve accidentally reset a
 branch, deleted a `commit`, or `force-pushed` over your work, Git’s safety net `git reflog` and `git reset` can often
@@ -50,7 +44,7 @@ Let’s walk through typical scenarios where things go wrong and how `git reflog
 #### Scenario 1: Accidentally Reset a Commit
 
 You’ve just run `git reset --hard HEAD^` to undo the last commit, but you realize you needed that work.
-**Step 1**: Check the Reflog Run `git reflog` to find the commit you want to recover.
+**Step 1**: Check the Reflog. Run `git reflog` to find the commit you want to recover.
 
 ```bash
 git reflog
@@ -64,7 +58,7 @@ def5678 HEAD@{1}: commit: Added feature X
 ```
 
 def5678 is the commit you want to recover.
-**Step 2**: Restore the Commit using `git reset` to move **HEAD** back to that commit:
+**Step 2**: Restore the Commit. Use `git reset` to move **HEAD** back to that commit:
 
 ```bash
 git reset --hard def5678
@@ -76,7 +70,7 @@ This restores your branch to include the commit at def5678. Your code is back!
 
 You `force-pushed` (`git push --force`) and overwrote commits on the remote. Those commits seem gone, but they’re still
 in your local `reflog`.
-**Step 1**: Check the Reflog Run `git reflog` to find the commit before the force push.
+**Step 1**: Check the Reflog. Run `git reflog` to find the commit before the force push.
 
 ```bash
 git reflog
@@ -90,7 +84,7 @@ def5678 HEAD@{3}: commit: Fixed bug Y
 ```
 
 def5678 is your lost commit.
-**Step 2**: Recover the Commit using `git reset` to move **HEAD** back to that commit:
+**Step 2**: Recover the Commit. Use `git reset` to move **HEAD** back to that commit:
 
 ```bash
 git reset --hard def5678

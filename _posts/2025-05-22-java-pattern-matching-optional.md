@@ -3,15 +3,14 @@ title: Java | Pattern match Optional in Java 21
 tags: [ Java, Pattern Matching, Optional, Java 21 ]
 style: border
 color: dark
-description: A trick to get pattern matching on Optional in Java 21, but one you'll probably never actually use.
+description: A clever Java 21 trick for combining Optional with pattern matching using instanceof — when it's useful, how it works, and why true Optional pattern matching support in a future Java version will make this obsolete.
 ---
 
----
+Java 21 brought some genuinely useful additions to the language, and pattern matching continues to evolve in interesting ways. This is a short one — more of a curiosity than a production technique — but it demonstrates a neat trick for combining `Optional` with pattern matching that I came across while exploring the Java 21 feature set.
 
 ## Using Optional
 
-As of Java 21, Pattern matching in Java allows us to check a value against a type like an instanceof with a new variable
-being declared of the correct type. Pattern matching can handle simple types and the deconstruction of records. But
+As of Java 21, pattern matching in Java allows us to check a value against a type like an `instanceof` check, with a new variable declared of the correct type. Pattern matching can handle simple types and the deconstruction of records. But
 pattern matching of arbitrary classes like Optional is not yet supported. (Work to support pattern match methods is
 ongoing).
 

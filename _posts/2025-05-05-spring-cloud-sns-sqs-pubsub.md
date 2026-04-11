@@ -3,17 +3,12 @@ title: Java, Spring Boot & AWS | Publisher-Subscriber Pattern Using SNS & SQS
 tags: [ Java, AWS, Spring Boot, SNS, SQS ]
 style: fill
 color: info
-description: As a Java developer, I’ve used AWS SNS and SQS to build scalable pub/sub systems. Here’s how to implement the publisher-subscriber pattern in Spring Boot for loosely coupled microservices.
+description: Implementing the publisher-subscriber pattern in Java Spring Boot using AWS SNS and SQS — full working example with Spring Cloud AWS, decoupled microservices, and real-world event-driven architecture patterns.
 ---
 
-# Implementing Pub/Sub with AWS SNS and SQS in Spring Boot: A Java Developer’s Guide
+Event-driven architectures have become central to how I build systems at scale. At Mosaic Smart Data, I used AWS SNS and SQS as the backbone for ingesting high-volume financial transaction data from multiple institutions in parallel — the publisher-subscriber pattern made it possible for the publishing side to remain completely decoupled from however many downstream consumers needed to act on each event.
 
-As a Java developer who’s built systems like Mosaic Smart Data’s real-time API pipeline, Co-op’s pricing analytics, ESG
-Global’s smart metering orchestration, and Ribby Hall Village’s data warehouse, I’ve leaned on event-driven
-architectures to create scalable, decoupled microservices. The publisher-subscriber (pub/sub) pattern, enabled by AWS
-SNS and SQS, has been a go-to for asynchronous communication, ensuring systems evolve independently while handling
-high-throughput data. In this guide, I’ll walk through implementing pub/sub in Spring Boot, using a user management
-service as an example, drawing on my experience delivering robust backend solutions.
+In this guide, I’ll walk through implementing the pub/sub pattern in Spring Boot with AWS SNS and SQS, using a user management service as a practical example.
 
 ## Why SNS and SQS for Pub/Sub?
 

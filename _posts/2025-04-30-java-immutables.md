@@ -3,16 +3,10 @@ title: Java | Immutables - No Setters Allowed
 tags: [ Java, Immutables, Lombok, Clean Code, Spring Boot, Apache Kafka ]
 style: fill
 color: light
-description: As a Java developer, I’ve used immutables to make projects like Mosaic Smart Data’s pipeline bulletproof. Here’s why immutables shine and how to avoid setters.
+description: Immutable objects in Java — why they matter for thread safety, how to build them correctly with final fields, factory methods, and validation, and why setters undermine everything. Practical examples from production Spring Boot systems.
 ---
 
-As a Java developer who’s tackled systems like Mosaic Smart Data’s real-time API pipeline, Co-op’s competitor pricing
-reports, ESG Global’s BOL Engine, and Ribby Hall Village’s data warehouse, I’ve learned that mutable objects can be a
-recipe for chaos. Early in my career, I battled bugs from unexpected state changes in a multi-threaded Spring Boot
-service, costing hours of debugging. That’s when I embraced immutable objects—classes whose state can’t change after
-construction. They’ve been a game-changer for reliability and maintainability, from Kafka consumers to Activiti
-workflows. Here’s why immutables are essential, how to implement them right, and why setters (and their sneaky cousins)
-have no place in them.
+If there’s one design discipline that has saved me the most debugging time over the years, it’s immutability. Mutable objects — those whose state can change after construction — are a reliable source of subtle, hard-to-reproduce bugs, particularly in multi-threaded environments. I learned this painfully early in my career when unexpected state changes in a Spring Boot service cost me days of debugging. Since then, I default to immutable objects wherever practical, and I’ve applied this discipline across every project from Kafka consumers at Mosaic Smart Data to workflow DTOs in ESG’s BPMN engine. Here’s why immutables matter, how to build them properly in Java, and why setters have no place in them.
 
 ## 1. Why Immutables Are Your Secret Weapon
 
@@ -245,7 +239,6 @@ Immutables excel in specific scenarios. Here’s where I’ve seen them transfor
 
 - **Concurrency**: In Mosaic’s multi-threaded Kafka pipeline, immutable trade events eliminated race conditions,
   ensuring thread safety without locks.
-- **Value race conditions**: ensuring thread safety without locks.
 - **Value Objects**: For Co-op’s pricing system, immutable `Price` objects (e.g., amount and currency) guaranteed
   consistent data across reports.
 - **DTOs**: In ESG’s smart meter system, immutable DTOs simplified data transfers between microservices, making
@@ -261,8 +254,8 @@ Immutables aren’t just a nice-to-have—they’re a cornerstone of clean, reli
 sub-second latency by preventing state-related bugs. In Co-op’s reports, they cut validation overhead. By making fields
 `final` and avoiding setters, you’ll catch errors at compile time and sleep better knowing your state is locked down.
 
-Start small: convert one DTO to an immutable, add a factory method, and validate its inputs. For inspiration, check
-Oracle’s Java docs or my clean code principles [here]({{ site.baseurl }}/blog/clean-coding/). If you’re
+Start small: convert one DTO to an immutable, add a factory method, and validate its inputs. Check out
+Oracle’s Java docs or my clean code post [here]({{ site.baseurl }}/blog/clean-coding/) for more.
 
 Have you used immutables to tame complex systems? Share your wins with me [here]({{ site.baseurl }}/contact/), or ask me
 for tips, I’d love to hear your story!

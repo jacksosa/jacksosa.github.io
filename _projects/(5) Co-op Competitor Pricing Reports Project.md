@@ -1,59 +1,41 @@
 ---
 name: Co-op Competitor Pricing Reports Project
-tools: [ Java, REST APIs, GitHub, Teradata, SQL, MicroStrategy, Agile, TDD, Trello ]
+tools: [Java, REST APIs, Teradata, SQL, MicroStrategy, GitHub, Agile, TDD]
 image: /assets/images/co-op.png
-description: A Java-based solution for generating competitor pricing reports, integrating weekly data for 50,000 products to optimize pricing strategies for Co-op's retail stores.
+description: A Java-based data integration solution for Co-op's Food Retail Business Intelligence team — ingesting weekly competitor pricing data for 50,000 products across 30 providers and delivering management reports to drive pricing strategy.
 ---
 
-# Co-op Competitor Pricing Reports Project
+# Co-op – Competitor Pricing Reports Project
 
-This project, undertaken at Co-op’s Food Retail Business Intelligence Team, focused on developing a Java-based solution
-to generate competitor pricing reports. By integrating weekly data for 50,000 products from Assosia across 30 different
-providers via REST APIs, the solution produced management reports to assist the pricing team in optimizing prices based
-on store demographics and local market needs. The project enhanced Co-op’s competitiveness in the retail sector,
-leveraging pure Java worker services, Agile methodologies, and Test-Driven Development (TDD) for reliable and accurate
-data processing.
+Co-op's Food Retail Business Intelligence team needed a way to systematically understand how their pricing compared to competitors — not just at a headline level, but product-by-product, store-by-store, accounting for local market demographics and competitor mix. The data was available from Assosia, a retail pricing intelligence provider, but pulling it, processing it, and making it useful for the pricing team required building a reliable, repeatable data pipeline from scratch.
 
-## Features
+My role was to design and deliver that pipeline: a Java-based integration solution that ingested weekly pricing data, loaded it into the Co-op data warehouse, and produced the management reports the pricing team needed to act on it.
 
-- **Competitor Pricing Reports**: Generated comprehensive management reports from weekly data on 50,000 products across
-  30 providers, enabling data-driven pricing decisions.
-- **Third-Party Data Integration**: Integrated with Assosia’s REST APIs to pull competitor pricing data, ensuring
-  up-to-date and accurate market insights.
-- **Java Worker Services**: Developed pure Java services for seamless API integration, efficiently processing large
-  datasets for reporting.
-- **Price Optimization**: Provided actionable insights for the pricing team to tailor prices to store demographics and
-  local market conditions, enhancing Co-op’s competitiveness.
-- **Test-Driven Development (TDD)**: Applied TDD principles with JUnit to ensure reliability, accuracy, and
-  maintainability of data integration and reporting services.
-- **Agile Methodologies**: Utilized Agile practices for flexible and iterative development, adapting to evolving
-  business requirements.
-- **High Data Volume Processing**: Handled weekly datasets for 50,000 products, optimized for performance and
-  scalability.
-- **Customizable Reports**: Produced tailored reports for management, supporting strategic pricing decisions across
-  diverse retail stores.
-- **Broad Data Coverage**: Enriched Co-op’s data warehouse with competitor pricing, alongside other data like weather
-  forecasts, for holistic business intelligence.
-- **Reliable Data Pipeline**: Ensured consistent and accurate data flow from third-party providers to the data
-  warehouse, minimizing errors.
-- **Scalable Architecture**: Designed services to scale with increasing data volumes and provider integrations,
-  supporting future growth.
-- **Collaborative Development**: Leveraged Trello for team collaboration, maintaining quality and transparency.
-- **Business Intelligence Enhancement**: Strengthened Co-op’s BI capabilities, enabling better logistics, pricing, and
-  workforce management decisions.
-- **Robust Error Handling**: Implemented error handling in API services to ensure data integrity and operational
-  continuity.
-- **User-Centric Reporting**: Delivered reports optimized for the pricing team’s needs, improving usability and
-  decision-making efficiency.
+## What I Built
+
+The solution centred on a set of pure Java worker services — scheduled jobs that pulled competitor pricing data from Assosia's REST API on a weekly cadence, processed and validated the inbound data, and loaded it into Co-op's Teradata data warehouse. From there, MicroStrategy-based management reports gave the pricing team visibility into price positioning across the product range, broken down by store and local competitor set.
+
+The pipeline handled pricing data for approximately **50,000 products** across **30 competitor providers** every week, with validation and error handling to ensure that incomplete or malformed data from any one provider didn't corrupt the wider dataset.
+
+## Key Technical Features
+
+- **Assosia REST API Integration**: Weekly batch ingestion of competitor pricing data from Assosia's API — configurable per provider, with per-provider data normalisation to accommodate format differences.
+- **Java Worker Services**: Lightweight, independently deployable Java services handling scheduled API calls, data transformation, validation, and warehouse loading — built for reliability and observability.
+- **Teradata Data Warehouse**: Competitor pricing data loaded into Co-op's existing Teradata warehouse alongside other business intelligence datasets — weather forecasts, promotional data, and store demographics.
+- **MicroStrategy Reporting**: Warehouse data surfaced through MicroStrategy reports giving the pricing team filterable, actionable views of competitor positioning by product, store, and region.
+- **Test-Driven Development**: JUnit applied throughout — API integration adapters, data transformation logic, and warehouse loading all tested at unit and integration level.
+- **Agile Delivery**: Sprint-based delivery working closely with the pricing team to iteratively refine the data model and report format based on real feedback.
+- **GitHub Version Control**: All code managed in GitHub with pull request reviews and branching strategy aligned to team working practices.
+
+## Outcome
+
+The reporting solution gave Co-op's pricing team a consistent, reliable view of competitor pricing at a product and store level — something they'd previously had to piece together manually from inconsistent sources. It fed directly into pricing decisions across the food retail estate, and the pipeline was extended over the engagement to incorporate additional data sources including weather forecast data to support demand-based pricing.
 
 <p class="text-center">
 {% include elements/button.html link="https://www.coop.co.uk/" text="Co-op" %}
 {% include elements/button.html link="https://www.assosia.com/" text="Assosia" %}
 {% include elements/button.html link="https://www.java.com/en/" text="Java" %}
 {% include elements/button.html link="https://www.teradata.com/" text="Teradata" %}
-{% include elements/button.html link="https://www.strategysoftware.com/" text="Strategy Software" %}
-{% include elements/button.html link="https://www.agilealliance.org/agile101/" text="Agile" %}
-{% include elements/button.html link="https://www.trello.com/" text="Trello" %}
-{% include elements/button.html link="https://www.junit.org/junit5/" text="JUnit 5" %}
-{% include elements/button.html link="https://www.sql.org/" text="SQL" %}
+{% include elements/button.html link="https://www.microstrategy.com/" text="MicroStrategy" %}
+{% include elements/button.html link="https://junit.org/junit5/" text="JUnit" %}
 </p>

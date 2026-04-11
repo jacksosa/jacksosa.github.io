@@ -1,27 +1,32 @@
 ---
 layout: page
 title: About
+description: Samuel Jackson — Senior Java Back End Developer with 20+ years experience. Specialist in Betfair Exchange API, Spring Boot microservices, AWS, and event-driven architecture. Available for Java contracting across betting, finance, energy, and government sectors.
 permalink: /about/
 weight: 1
 ---
 
-# **About**
+# **About Me**
 
-{{ site.author.name }} is an accomplished Senior Back End Developer with over 20 years of experience architecting and
-delivering innovative software solutions across finance, energy, retail, and betting markets. Renowned for expertise in
-Java and Spring technologies, he has led transformative projects, including real-time API services, smart metering
-systems, and high-frequency trading frameworks. His proficiency in Test-Driven Development (TDD), Agile methodologies,
-and AWS infrastructure ensures the delivery of robust, scalable, and high-performance applications.
+I'm {{ site.author.name }}, a Senior Back End Developer with over 20 years of experience architecting and delivering high-performance software solutions across finance, energy, retail, government, and — most passionately — the betting exchange industry.
 
-Notable achievements include designing a fault-tolerant, serverless API service for financial data ingestion, developing
-critical orchestration layers for smart metering, and architecting an event-driven trading platform integrated with
-Betfair’s APIs, leveraging proprietary metrics for automated strategies. Jackson’s technical versatility spans Java,
-Python, SQL, JavaScript, and AWS, complemented by a commitment to CI/CD excellence and industry best practices. His
-solutions consistently optimize performance, reliability, and client outcomes in dynamic, high-stakes environments.
+My core expertise is in Java and the Spring ecosystem, and I've spent my career building systems where reliability, latency, and throughput genuinely matter. I've designed real-time API services for major financial institutions, orchestrated smart metering platforms at national scale, and architected automated high-frequency trading frameworks integrated directly with Betfair's Exchange and Streaming APIs. If you need Java expertise for a betting exchange project — whether that's Betfair, Betdaq, Smarkets, or Matchbook — this is where my deepest specialism lies.
 
-Beyond technical leadership, Jackson brings a passion for innovation, drawing on a diverse career to tackle complex
-challenges. A competitive cyclist, Tae Kwon Do 4th Dan Master, and former marathon fundraiser, he combines discipline
-and creativity in all endeavors. Explore his portfolio to discover how his expertise can drive transformative projects.
+At my current engagement with DWP Digital, I'm modernising the New Style Jobseeker's Allowance platform using Spring Boot microservices, Apache Kafka, MongoDB, and Hexagonal Architecture — delivering a mission-critical, event-driven service that operates at national scale.
+
+Beyond the day job, I believe in building systems that stand the test of time: testable, observable, and designed for change. I'm a strong advocate for Test-Driven Development, clean code principles, and CI/CD automation — practices I've applied across every engagement throughout my career.
+
+**What I bring to a project:**
+
+- Deep Java and Spring Boot expertise, applied across finance, energy, retail, government, and betting domains
+- Proven track record designing fault-tolerant, event-driven, and real-time systems at scale
+- Hands-on AWS architecture experience — serverless, containerised, and infrastructure-as-code
+- A disciplined TDD and Agile mindset that keeps projects clean, well-tested, and moving fast
+- The communication skills and leadership experience to work effectively with both technical teams and business stakeholders
+
+Outside of work, I'm a competitive cyclist, a Tae Kwon Do 4th Dan Master, and a former marathon fundraiser. The discipline and focus those pursuits demand carry directly into my work as an engineer.
+
+If you're looking for a Java developer with genuine betting exchange expertise, or a senior engineer who can lead complex backend initiatives across high-stakes domains, I'd love to hear from you.
 
 <div class="row">
 {% include about/timeline.html %}
@@ -33,4 +38,3 @@ and creativity in all endeavors. Explore his portfolio to discover how his exper
 {% include about/skills.html title="Cloud" source=site.data.cloud-skills %}
 {% include about/skills.html title="Infra" source=site.data.infra-skills %}
 </div>
-

@@ -1,15 +1,24 @@
 ### Site Settings ###
 title               : Samuel Jackson
+tagline             : Senior Java Developer | Betting Exchange Specialist | Spring Boot | AWS
 description         : >-
-                      I am a Senior Back End Developer with over two decades of experience architecting
-                      high-performance, scalable backend systems using Java, Spring Boot, and modern cloud technologies.
-                      Specializing in real-time data processing, API integrations, and Test-Driven Development (TDD),
-                      I deliver solutions that drive efficiency and innovation across diverse industries.
-                      Visit my About Me section to explore my expertise and impactful projects.
-baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : jacksosa/jacksosa.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+                      Senior Java Back End Developer with 20+ years of experience — specialising in Betfair Exchange API,
+                      Betdaq, Smarkets, and Matchbook integrations, Spring Boot microservices, event-driven architecture,
+                      and AWS serverless systems. Available for Java contracting across betting, finance, energy, and
+                      government sectors. Based in Lancashire, UK.
+url                 : "https://www.trinitylogic.co.uk"
+baseurl             : ""
+repository          : jacksosa/jacksosa.github.io
 remote_theme        : yousinix/portfolYOU
-open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
+open_new_tab        : false
+lang                : en-GB
+
+### Social (used by jekyll-seo-tag for JSON-LD Person schema) ###
+social:
+  name  : Samuel Jackson
+  links :
+    - https://github.com/jacksosa
+    - https://www.trinitylogic.co.uk
 
 ### Plugins ###
 plugins:
@@ -41,7 +50,11 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : Samuel Jackson
   image             : assets/images/profile.png
-  mobile             : "+44 7719 84 08 36"
+  bio               : >-
+                      Senior Java Back End Developer — Betfair Exchange API specialist, Spring Boot, AWS, and
+                      event-driven architecture. 20+ years delivering high-performance systems across betting,
+                      finance, energy, retail, and government. Available for Java contracting.
+  mobile            : "+44 7719 84 08 36"
   email             : jacksosa76@gmail.com
   github            : jacksosa
   website           : https://www.trinitylogic.co.uk
@@ -51,7 +64,7 @@ author:
 #  gitlab            : your_username
 #  instagram         : your_username
 #  kaggle            : your_username
-#  linkedin          : your_username
+  linkedin          : samuel-jackson-dev  # TODO: replace with your actual LinkedIn username
 #  medium            : your_username
 #  soundcloud        : your_username
 #  spotify           : your_username

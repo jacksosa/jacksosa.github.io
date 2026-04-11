@@ -1,20 +1,38 @@
-# === Cloud and Infrastructure Automation ===
+# === AWS Services ===
+- name: AWS Lambda
+  percentage: 85
+  color: success
+
+- name: AWS API Gateway
+  percentage: 85
+  color: success
+
+- name: AWS SNS / SQS
+  percentage: 85
+  color: success
+
+- name: AWS S3
+  percentage: 85
+  color: success
+
 - name: AWS CDK
   percentage: 80
   color: success
 
 - name: CloudFormation
   percentage: 75
-  color: success
+  color: warning
 
+# === Infrastructure as Code ===
 - name: Ansible
   percentage: 70
   color: secondary
 
+# === Containerisation & Orchestration ===
 - name: Docker
-  percentage: 70
-  color: secondary
+  percentage: 75
+  color: warning
 
 - name: Kubernetes
-  percentage: 55
+  percentage: 60
   color: secondary

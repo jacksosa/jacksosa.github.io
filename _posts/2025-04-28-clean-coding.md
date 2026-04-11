@@ -3,11 +3,10 @@ title: Clean Coding | Four Principles to Boost Your Team’s Productivity
 tags: [ Software Development, Clean Code, Junit, Java, TDD, testcontainers, Mockito, Spring Boot, Apache Kafka ]
 style: fill
 color: info
-description: Four clean code principle - testing, naming, SRP, & side-effect-free functions, that helped transform my projects and doubled productivity.
+description: Four clean code principles every Java developer should apply — rigorous testing, meaningful naming, Single Responsibility, and side-effect-free functions. Real examples from Spring Boot, Kafka, and microservices projects.
 ---
 
----
-As a Java developer with a decade of experience delivering projects like the Ribby Hall Village data warehouse, Co-op’s
+As a Java developer with over 20 years of experience delivering projects like the Ribby Hall Village data warehouse, Co-op’s
 competitor pricing reports, ESG Global’s BOL Engine, and a real-time API ingestion pipeline for Mosaic Smart Data, I’ve
 wrestled with codebases that were more liability than asset. Early in my career, I encountered systems plagued by
 spaghetti logic, rampant duplication, and nonexistent tests. A simple bug fix could spiral into hours of frustration,
@@ -42,14 +41,14 @@ intent. For Mosaic Smart Data’s pipeline, I named classes like `MarketDataCons
 
 In the Ribby Hall project, I renamed a vague Processor class to `XledgerDataSync`, reflecting its job of syncing
 accountancy data. Variables like `tradeVolume` trump `myNumber`, and methods like `aggregateMarketEvents` beat
-`process`. Duringcode reviews, I’m relentless about naming, bad names waste everyone’s time. Good names act as
+`process`. During code reviews, I’m relentless about naming — bad names waste everyone’s time. Good names act as
 documentation, speeding up onboarding and IDE searches (e.g., Ctrl+Shift+F).
 
 ## 3. Classes and Functions Should Be Small and Obey the Single Responsibility Principle (SRP)
 
 Small, single-purpose code units are my secret weapon. At Mosaic Smart Data, I refactored a monolithic method handling
 market data ingestion into smaller functions, `consumeAwsSqsTransactions`, `validateTradeTransactions`,
-`persistTradeTransactionsToDruid`, each under 10lines. This made the pipeline easier to test and debug, cutting
+`persistTradeTransactionsToDruid`, each under 10 lines. This made the pipeline easier to test and debug, cutting
 maintenance time significantly. At Co-op, breaking a 50-line price-parsing method into bite-sized pieces slashed
 bug-fixing time by half.
 
@@ -114,7 +113,7 @@ recursively.
 
 ## 4. Functions Should Have No Side Effects
 
-Side effects, when functions modify external state unexpectedly are bug magnets. At Mosaic Smart Data, I ensured the
+Side effects — when functions modify external state unexpectedly — are bug magnets. At Mosaic Smart Data, I ensured the
 pipeline’s data processing methods were side-effect-free, returning transformed data without altering inputs or
 databases. This made debugging easier, especially when handling millions of market events daily. In contrast, an early
 project had a method that fetched data and updated a cache, causing race conditions that took days to resolve.
@@ -152,7 +151,7 @@ immutably, which was critical for scalability and reliability.
 
 ## Conclusion
 
-These four principles - rigorous testing, meaningful names, small/SRP code units, and side-effect-free functions, have
+These four principles — rigorous testing, meaningful names, small/SRP code units, and side-effect-free functions — have
 been my north star. They turned chaotic codebases into maintainable systems, from Co-op’s pricing reports to Mosaic
 Smart Data’s real-time pipeline, which empowered FICC desks with instant market insights. Clean code doubled
 productivity, reduced stress, and let me focus on solving problems, not fighting bugs.

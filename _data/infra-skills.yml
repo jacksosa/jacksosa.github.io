@@ -1,15 +1,28 @@
-# === Scripting and Automation ===
+# === CI/CD & Automation ===
+- name: GitHub Actions
+  percentage: 85
+  color: success
+
+- name: Jenkins
+  percentage: 75
+  color: warning
+
 - name: Bash Scripting
   percentage: 70
   color: secondary
 
-- name: Jenkins
+# === Messaging & Eventing ===
+- name: Apache Kafka
+  percentage: 80
+  color: success
+
+- name: RabbitMQ
   percentage: 70
   color: info
 
-- name: GitHub Actions
-  percentage: 80
-  color: info
+- name: AWS SNS / SQS
+  percentage: 85
+  color: success
 
 # === OS and Environment ===
 - name: Linux
@@ -17,9 +30,5 @@
   color: success
 
 - name: Windows
-  percentage: 95
+  percentage: 90
   color: success
-
-- name: MacOS
-  percentage: 50
-  color: secondary

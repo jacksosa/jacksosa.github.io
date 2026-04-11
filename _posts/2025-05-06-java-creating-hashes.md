@@ -3,16 +3,10 @@ title: Java | Hashing for Secure and Efficient Code
 tags: [ Java, Hashing, Security, Clean Code, Spring Boot ]
 style: fill
 color: secondary
-description: As a Java developer, I’ve used hashing to secure data in projects like ESG Global’s BOL Engine. Here’s my guide to creating hashes in Java, with real-world tips.
+description: Java hashing guide — MD5, SHA-256, PBKDF2, and bcrypt with MessageDigest, Apache Commons Codec, Guava, and jBCrypt. When to use each algorithm, how to avoid common mistakes, and practical examples for data integrity and password storage.
 ---
 
-As a Java developer who’s built systems like Mosaic Smart Data’s real-time API pipeline, Co-op’s competitor pricing
-reports, ESG Global’s BOL Engine, and Ribby Hall Village’s data warehouse, I’ve learned that hashing is a Swiss Army
-knife for security and performance. Early on, I fumbled with checksums in Co-op’s pricing system, generating
-inconsistent hashes that broke data lookups. Once I got the hang of Java’s hashing tools, I used them to secure user
-data in ESG’s engine and speed up trade ID lookups in Mosaic’s pipeline. Hashing is critical for everything from
-passwords to data integrity, and Java makes it straightforward. Here’s my guide to creating hashes in Java, packed with
-examples from my projects and lessons I’ve learned the hard way.
+Hashing is one of those topics that comes up constantly in backend development — from verifying data integrity in a Kafka pipeline to securing credentials in a web application. I’ve used Java’s hashing tools across most of my engagements: SHA-256 for trade event integrity checks in Mosaic’s financial data pipeline, bcrypt for user authentication in ESG’s metering platform, and MD5 for non-sensitive checksums in lower-stakes contexts. Here’s a practical guide to the key options Java offers, and when to use each.
 
 ## What Is a Hash Function?
 

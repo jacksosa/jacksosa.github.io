@@ -1,0 +1,88 @@
+<!-- Meta keywords for secondary search engines (Bing, DuckDuckGo) -->
+<meta name="keywords" content="Java developer, Betfair API, Betfair Exchange API Java, betting exchange developer, Java Spring Boot developer, Senior Java developer UK, Java contractor Lancashire, Betdaq developer, Smarkets API developer, Matchbook Java, high frequency trading Java, Spring Boot microservices, AWS Java developer, event-driven architecture, Apache Kafka Java, Java backend developer UK, Java contractor hire, TDD Java, Java 21, Spring Boot contractor">
+
+<meta name="author" content="{{ site.author.name }}">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#007bff">
+<link rel="canonical" href="{{ page.url | prepend: site.url }}">
+
+<!-- JSON-LD: Person schema for Google Knowledge Graph -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Samuel Jackson",
+  "url": "https://www.trinitylogic.co.uk",
+  "image": "https://www.trinitylogic.co.uk/assets/images/profile.png",
+  "jobTitle": "Senior Java Back End Developer",
+  "description": "Senior Java Back End Developer with 20+ years of experience, specialising in Betfair Exchange API, Spring Boot microservices, AWS serverless architecture, and event-driven systems. Expert in Java betting exchange development for Betfair, Betdaq, Smarkets, and Matchbook.",
+  "knowsAbout": [
+    "Java",
+    "Spring Boot",
+    "Betfair Exchange API",
+    "Betfair Streaming API",
+    "Betdaq API",
+    "Smarkets API",
+    "Matchbook API",
+    "Betting Exchange Development",
+    "High Frequency Trading",
+    "Apache Kafka",
+    "AWS Lambda",
+    "AWS SNS SQS",
+    "Microservices Architecture",
+    "Hexagonal Architecture",
+    "Event-Driven Architecture",
+    "TDD",
+    "MongoDB",
+    "PostgreSQL"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Poulton-le-Fylde",
+    "addressRegion": "Lancashire",
+    "addressCountry": "GB"
+  },
+  "sameAs": [
+    "https://github.com/jacksosa",
+    "https://www.trinitylogic.co.uk"
+  ],
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Lancaster University"
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Cambridge"
+    }
+  ]
+}
+</script>
+
+{% if page.layout == "post" %}
+<!-- JSON-LD: BlogPosting schema for individual posts -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ page.title | escape }}",
+  "description": "{{ page.description | escape }}",
+  "author": {
+    "@type": "Person",
+    "name": "Samuel Jackson",
+    "url": "https://www.trinitylogic.co.uk"
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Samuel Jackson",
+    "url": "https://www.trinitylogic.co.uk"
+  },
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "url": "{{ page.url | prepend: site.url }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | prepend: site.url }}"
+  }
+}
+</script>
+{% endif %}

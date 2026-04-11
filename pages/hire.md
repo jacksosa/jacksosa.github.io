@@ -1,51 +1,61 @@
 ---
 layout: page
-title: Hire Me
+title: Hire Me — Java Betting Exchange Developer | Spring Boot Contractor UK
+description: Hire Samuel Jackson — the UK's leading Java developer for Betfair, Betdaq, Smarkets, and Matchbook betting exchange projects. Senior Java Spring Boot contractor with 20+ years experience. Available for remote contracts.
 permalink: /hire/
 weight: 2
 ---
 
-# Hire me!
+# Hire Me
 
-Interested in working with {{ site.author.name }}? I'm available for job opportunities, freelance projects, or
-consulting in backend development, DevOps, and cloud architecture. I specialize in creating scalable and efficient
-systems that meet the needs of modern applications.
+I'm {{ site.author.name }}, a Senior Java Back End Developer with over 20 years of experience delivering robust, high-performance systems across finance, energy, retail, government, and — most distinctively — the betting exchange industry.
 
-With a strong background in software engineering and a passion for problem-solving, I can help you build robust
-solutions tailored to your business requirements. My expertise includes:
+## Betting Exchange Specialism
 
-- **Backend Development**: Building RESTful APIs and microservices.
-- **DevOps**: CI/CD pipelines with Github actions and Jenkins, containerisation and orchestration with Docker & K8s.
-- **Cloud Architecture**: Designing and deploying serverless applications on AWS, Azure, and GCP.
-- **Database Management**: Working with SQL and NoSQL databases like PostgreSQL, MongoDB, and Druid.
-- **Infrastructure as Code**: Using Terraform and Ansible for automated provisioning and configuration.
-- **Monitoring and Logging**: Setting up observability with tools like Prometheus, Grafana, and ELK stack.
-- **Agile Methodologies**: Collaborating in cross-functional teams using Agile and Scrum practices.
-- **Security Best Practices**: Ensuring secure coding practices and compliance with industry standards.
-- **Performance Optimization**: Analyzing and improving system performance and scalability.
-- **Technical Documentation**: Creating clear and concise documentation for codebases and APIs.
-- **Mentoring and Training**: Sharing knowledge and best practices with team members and junior developers.
-- **Open Source Contributions**: Actively contributing to open source projects and communities.
-- **Continuous Learning**: Staying updated with the latest technologies and industry trends.
+If your project involves a betting exchange platform, you've found the right developer. I've architected and delivered a production-grade, high-frequency trading framework integrated with Betfair's Exchange and Streaming APIs, building automated strategies driven by proprietary real-time metrics including Weight of Money trends, Last Traded Price dynamics, price velocity, and order flow imbalance.
 
-For a detailed overview of my skills and experience, please check out my [resume]({{ site.baseurl }}/about/) and
-examples of my work in the [projects]({{ site.baseurl }}/projects/) section.
+I have hands-on, production experience with:
 
-If you're looking for someone who can deliver high-quality work and help you achieve your goals, let's connect! I'm open
-to discussing potential projects, collaborations, or full-time positions. Feel free to reach out to me via email, mobile
-or the [contact form]({{ site.baseurl }}/contact/) on my website.
+- **Betfair Exchange API & Streaming API** — real-time market data, order placement, hedging, and position management
+- **Event-driven trading architecture** — low-latency, asynchronous processing with Spring Boot and Apache Kafka
+- **Automated strategy development** — data-driven signal generation with disciplined risk controls
+- **Betdaq, Smarkets & Matchbook integrations** — extensible architecture ready for multi-exchange deployment
 
-Thank you for considering me for your next project. I look forward to hearing from you!
+Whether you need a trading framework built from scratch, an existing platform scaled and hardened, or a senior engineer to lead a betting technology team, I can deliver.
 
-Best regards,
+## What I Offer
 
-{{ site.author.name }}
+**Backend Development**
+Senior-level Java and Spring Boot development — microservices, RESTful APIs, event-driven systems, and real-time data pipelines. I write clean, testable, production-grade code and I lead teams that do the same.
 
-## Contact Information
+**Cloud Architecture (AWS)**
+Designing and delivering fault-tolerant, serverless, and containerised solutions on AWS — API Gateway, Lambda, SNS/SQS/S3, ECS, and CDK-managed infrastructure with multi-region disaster recovery.
 
-- **Location**: Poulton-Le-Fylde, Lancashire, United Kingdom
-- **Email**: <a href="mailto:{{ site.author.email }}">{{ site.author.name }}</a>
-- **GitHub**: <a href="https://github.com/{{ site.author.github }}">{{ site.author.github }}</a>
+**DevOps & CI/CD**
+End-to-end automation with GitHub Actions and Jenkins; containerisation with Docker and Kubernetes; infrastructure as code with Terraform, Ansible, and CloudFormation.
+
+**Data Engineering**
+Java and Python data pipelines, Apache Druid and Apache Kafka integration, PostgreSQL, MongoDB, and MS SQL Server — from ingestion through to enrichment and analytics.
+
+**Technical Leadership**
+Roadmap ownership, production change management, architecture decisions, mentoring, and 3rd line support. I've led engineering efforts in Agile, Kanban, and contract-delivery environments across my entire career.
+
+## Engagement Types
+
+I'm open to:
+
+- **Contract and freelance engagements** — my preferred mode of working
+- **Consulting and architecture review** — if you need an experienced eye on your system design
+- **Full-time senior roles** — for the right opportunity and team
+
+For a full view of my background, explore the [About]({{ site.baseurl }}/about/) page, browse my [Projects]({{ site.baseurl }}/projects/), or read my [Blog]({{ site.baseurl }}/blog/) for a sense of how I think and work.
+
+## Get in Touch
+
+- **Location**: Poulton-le-Fylde, Lancashire, United Kingdom (Remote-first)
+- **Email**: <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+- **GitHub**: <a href="https://github.com/{{ site.author.github }}">github.com/{{ site.author.github }}</a>
 - **Website**: <a href="{{ site.author.website }}">{{ site.author.website }}</a>
 - **Mobile**: {{ site.author.mobile }}
 
+Ready to talk? Use the [contact form]({{ site.baseurl }}/contact/) or reach out directly — I respond promptly.

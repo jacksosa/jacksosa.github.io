@@ -3,18 +3,10 @@ title: Java | Formatting Code Snippets in Javadoc
 tags: [ Java, Javadoc, Documentation ]
 style: fill
 color: danger
-description: As a Java developer, I’ve used Javadoc to document APIs for projects like Mosaic Smart Data. Here’s how to format code snippets correctly with Javadoc.
+description: How to correctly format code snippets in Javadoc — when to use &lt;pre&gt;, &lt;code&gt;, and {@code} for annotations, generics, and multi-line blocks. Practical guide to clean, renderable Javadoc for Java API documentation.
 ---
 
----
-
-As a Java developer who’s built systems like Mosaic Smart Data’s real-time API pipeline, Co-op’s competitor pricing
-reports, ESG Global’s BOL Engine, and Ribby Hall Village’s data warehouse, I know that clear documentation is as
-critical as clean code. When I was documenting a Spring Boot REST API for Mosaic’s financial analytics, I hit a snag:
-formatting code snippets in Javadoc. Special characters like `<`, `>`, and `@` kept breaking the rendered HTML, making
-my docs unreadable. After some trial and error, I mastered the use of `<pre>`, `<code>`, and `{@code}` to create
-polished, maintainable Javadoc. Here’s my guide to formatting code snippets correctly, with practical tips to make your
-API docs shine.
+Good documentation is as important as clean code — and Javadoc is where Java developers do most of their API-level writing. When I was documenting a Spring Boot REST API for Mosaic Smart Data’s financial analytics platform, I hit a persistent snag: code snippets in Javadoc. Special characters like `<`, `>`, and `@` kept breaking the rendered HTML output, turning useful examples into unreadable noise. After some trial and error, I worked out the right tool for each scenario. Here’s what I learned about `<pre>`, `<code>`, and `{@code}` — and when to use which.
 
 ## The Javadoc Code Markup Puzzle
 

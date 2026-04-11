@@ -3,10 +3,12 @@ title: Architecture | Hexagonal Architecture for Real-World Systems
 tags: [ Architecture, Hexagonal Architecture, Clean Code, Spring Boot, Microservices ]
 style: fill
 color: success
-description: After years of building event-driven systems in finance, energy, and government, Hexagonal Architecture has become my default for keeping complex systems testable, resilient, and adaptable.
+description: How I use Hexagonal Architecture (Ports and Adapters) in Java Spring Boot systems — from Betfair trading frameworks to DWP Digital's benefit platform. Practical patterns for keeping domain logic clean and independently testable.
 ---
 
-As a backend developer working on long-lived, high-stakes systems—from real-time financial data pipelines to government services handling national-scale claimant journeys—I’ve learned that most architectural pain doesn’t come from business complexity, but from tight coupling. Early in my career, I built systems where domain logic leaked everywhere: into controllers, repositories, message handlers, and frameworks. They worked—until requirements changed. That’s why Hexagonal Architecture (also known as Ports and Adapters) has become my default approach for building maintainable systems that evolve without fear.
+Working on long-lived, high-stakes systems — from real-time financial data pipelines at Mosaic Smart Data to government benefit services at DWP Digital — I’ve learned that most architectural pain doesn’t come from business complexity, but from tight coupling. Early in my career, I built systems where domain logic leaked everywhere: into controllers, repositories, message handlers, and frameworks. They worked — until requirements changed.
+
+That experience is why Hexagonal Architecture (also known as Ports and Adapters) has become my default approach for building systems that stay maintainable and continue to evolve without fear.
 
 ## What Is Hexagonal Architecture?
 
@@ -48,4 +50,9 @@ Because the domain depends only on ports, business logic can be tested without S
 
 ## Final Thoughts
 
-Hexagonal Architecture isn’t about purity—it’s about protecting what matters most: your business logic. If you’re building systems that must evolve safely over time, it’s one of the most effective architectural patterns you can adopt.
+Hexagonal Architecture isn’t about purity — it’s about protecting what matters most: your business logic. If you’re building systems that must evolve safely over time, it’s one of the most effective architectural patterns you can adopt.
+
+<p class="text-center">
+{% include elements/button.html link="https://alistair.cockburn.us/hexagonal-architecture/" text="Hexagonal Architecture" %}
+{% include elements/button.html link="https://spring.io/projects/spring-boot" text="Spring Boot" %}
+</p>

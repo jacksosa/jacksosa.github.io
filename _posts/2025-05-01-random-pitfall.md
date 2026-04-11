@@ -3,16 +3,10 @@ title: Java | A Random Pitfall
 tags: [ Java, Random, Math, ThreadLocalRandom, AtomicLong, AtomicReference ]
 style: fill
 color: secondary
-description: As a Java developer, I hit a performance snag with java.util.Random in multi-threaded systems. Here’s how I fixed it with ThreadLocalRandom.
+description: java.util.Random is a hidden performance bottleneck in multi-threaded Java systems — here’s why, and how switching to ThreadLocalRandom eliminates CAS contention and restores throughput in high-concurrency Spring Boot applications.
 ---
 
----
-As a Java developer who’s built systems like Mosaic Smart Data’s real-time API pipeline, Co-op’s competitor pricing
-reports, ESG Global’s BOL Engine, and Ribby Hall Village’s data warehouse, I’ve learned that even small oversights can
-tank performance in high-stakes projects. One sneaky culprit? Misusing `java.util.Random` in multi-threaded
-environments. I ran into this while optimizing a Spring Boot microservice for Mosaic’s financial data pipeline, where
-random number generation caused unexpected slowdowns. Let’s dive into the pitfall, why it happens, and how
-`ThreadLocalRandom` saved the day—plus tips to keep your projects humming.
+Small things can have outsized performance impact in high-throughput systems. One that caught me off guard while optimising a Spring Boot microservice for Mosaic’s financial data pipeline was random number generation. Specifically: using `java.util.Random` in a multi-threaded environment, where it becomes a bottleneck you’d never predict from a code review. Here’s what happens, why it matters, and how `ThreadLocalRandom` solves it cleanly.
 
 ## 1. The Random Trap in Multi-Threaded Systems
 
@@ -105,7 +99,7 @@ don’t share its instances across threads.
 `ThreadLocalRandom` isn’t always the answer. For single-threaded apps or low-frequency random number generation—like
 generating a one-off ID in a Ribby Hall data sync job, Random is fine. Its thread safety doesn’t hurt in these cases,
 and the overhead is negligible. I’ve also used `Random` with a fixed seed for reproducible results in unit tests, like
-mockingdata for ESG’s BOL Engine.
+mocking data for ESG’s BOL Engine.
 
 However, if you’re sharing a `Random` instance across threads and generating tons of numbers, you’re asking for trouble.
 The contention I hit in Mosaic’s pipeline could’ve been avoided if I’d known about `ThreadLocalRandom` sooner.
