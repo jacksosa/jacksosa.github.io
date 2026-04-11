@@ -1,11 +1,9 @@
 ---
-title: "Betfair | Getting Started with the Betfair Exchange API in Java"
-date: 2026-04-18
+title: Betfair | Getting Started with the Betfair Exchange API in Java
 tags: [Java, Betfair, Betting Exchange, Spring Boot, API]
 style: fill
 color: primary
-description: >-
-  A practical Java guide to the Betfair Exchange API — covering SSOID authentication, the non-interactive login flow, listing markets, retrieving runner prices, and placing your first bet.
+description: A practical Java guide to the Betfair Exchange API — covering SSOID authentication, the non-interactive login flow, listing markets, retrieving runner prices, and placing your first bet.
 ---
 
 The Betfair Exchange API is one of the most powerful — and most misunderstood — sports betting APIs available to developers. I've been building production trading systems on top of it for years, and the number one problem I see is developers diving into order placement before they've properly understood authentication and market data. Get these foundations right, and the rest follows naturally.
