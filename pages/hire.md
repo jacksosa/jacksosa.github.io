@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hire Me — Java Betting Exchange Developer | Spring Boot Contractor UK
+title: Hire Me
 description: Hire Samuel Jackson — the UK's leading Java developer for Betfair, Betdaq, Smarkets, and Matchbook betting exchange projects. Senior Java Spring Boot contractor with 20+ years experience. Available for remote contracts.
 permalink: /hire/
 weight: 2
