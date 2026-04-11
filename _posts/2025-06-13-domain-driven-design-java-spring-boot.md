@@ -1,11 +1,9 @@
 ---
 title: "Architecture | Domain-Driven Design in Java Spring Boot"
-date: 2026-06-13
 tags: [Java, Spring Boot, DDD, Architecture, Clean Code]
 style: fill
 color: success
-description: >-
-  A practical DDD guide for Java Spring Boot developers — covering aggregates, value objects, domain events, bounded contexts, and how to keep JPA out of your domain model.
+description: A practical DDD guide for Java Spring Boot developers — covering aggregates, value objects, domain events, bounded contexts, and how to keep JPA out of your domain model.
 ---
 
 Most Spring Boot projects I've walked into have the same structural problem: JPA annotations scattered across domain objects, business logic living in services that know too much about persistence, and a codebase that makes it hard to answer the question "what does this system actually do?". Domain-Driven Design isn't a silver bullet — it adds real complexity — but on systems with genuine domain complexity (like the DWP Digital benefit platform or a Betfair trading strategy engine), it produces code that's far easier to evolve and reason about.

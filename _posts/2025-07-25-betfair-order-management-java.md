@@ -1,11 +1,9 @@
 ---
 title: "Betfair | Placing and Managing Orders with the Betfair API in Java"
-date: 2026-07-25
 tags: [Java, Betfair, Exchange API, Order Management, Trading]
 style: fill
 color: danger
-description: >-
-  How to place, update, cancel, and replace orders on Betfair in Java — covering placeOrders, cancelOrders, replaceOrders, listCurrentOrders, error handling, and reconciliation.
+description: How to place, update, cancel, and replace orders on Betfair in Java — covering placeOrders, cancelOrders, replaceOrders, listCurrentOrders, error handling, and reconciliation.
 ---
 
 Order management is where the Betfair API gets serious. Reading markets is relatively forgiving — a failed request just means stale data. A failed order management call can mean unmatched positions, double-placed bets, or trades left open when they should be closed. I've built production order management into my Betfair trading framework over several years, and the patterns below represent the defensive approach that keeps things clean under pressure.

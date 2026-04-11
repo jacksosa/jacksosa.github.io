@@ -1,11 +1,9 @@
 ---
 title: "Spring Boot | Deep Dive into Apache Kafka Consumers"
-date: 2026-05-09
 tags: [Java, Spring Boot, Apache Kafka, Event-Driven Architecture]
 style: fill
 color: info
-description: >-
-  A thorough guide to robust Kafka consumers in Spring Boot — covering @KafkaListener, consumer groups, manual commit, error handling, dead letter topics, and idempotent processing patterns.
+description: A thorough guide to robust Kafka consumers in Spring Boot — covering @KafkaListener, consumer groups, manual commit, error handling, dead letter topics, and idempotent processing patterns.
 ---
 
 Kafka consumer configuration has more knobs than most developers realise, and the defaults are not production-ready. I've worked on event-driven systems at DWP Digital and Mosaic Smart Data where getting the consumer configuration wrong meant duplicate payments, lost events, or cascading failures. The Spring Kafka library does a good job of hiding complexity — but only up to the point where you actually need to understand what's happening underneath.

@@ -1,11 +1,9 @@
 ---
 title: "Betfair | Building a Spring Boot Trading Strategy Engine"
-date: 2026-07-04
 tags: [Java, Spring Boot, Betfair, Trading, Architecture]
 style: fill
 color: primary
-description: >-
-  How to architect a pluggable trading strategy engine in Spring Boot for Betfair — strategy interfaces, event-driven signal evaluation, lifecycle management, and risk controls.
+description: How to architect a pluggable trading strategy engine in Spring Boot for Betfair — strategy interfaces, event-driven signal evaluation, lifecycle management, and risk controls.
 ---
 
 A trading strategy engine is the core of any automated Betfair system. Get the architecture right and adding, removing, or tweaking strategies becomes a low-risk configuration change. Get it wrong and every strategy change is a deployment risk, strategies share state they shouldn't, and risk controls are a bolt-on afterthought. I've built production trading frameworks and the patterns that follow represent what actually works under live market conditions.

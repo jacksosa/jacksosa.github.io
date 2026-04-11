@@ -1,11 +1,9 @@
 ---
 title: "Java | CompletableFuture — Mastering Async Programming"
-date: 2026-06-06
 tags: [Java, CompletableFuture, Async, Concurrency, Spring Boot]
 style: fill
 color: warning
-description: >-
-  A comprehensive guide to CompletableFuture in Java — covering thenApply, thenCompose, allOf, exception handling, custom executors, and the pitfalls to avoid in real-world async pipelines.
+description: A comprehensive guide to CompletableFuture in Java — covering thenApply, thenCompose, allOf, exception handling, custom executors, and the pitfalls to avoid in real-world async pipelines.
 ---
 
 Before Java 21's virtual threads became stable, `CompletableFuture` was the standard tool for non-blocking, concurrent Java in Spring Boot services. I've used it extensively in real-time data ingestion pipelines at Mosaic Smart Data, where we needed to fan out requests to multiple data providers, aggregate the results, and respond within strict latency budgets. Used well, it's powerful. Used carelessly, it produces code that's difficult to reason about and hides failures.

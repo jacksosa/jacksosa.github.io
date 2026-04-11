@@ -1,11 +1,9 @@
 ---
 title: "Betfair | Risk Management in Automated Betting Systems"
-date: 2026-08-08
 tags: [Java, Betfair, Risk Management, Trading, Architecture]
 style: fill
 color: primary
-description: >-
-  Risk management architecture for automated Betfair trading in Java — stake limits, liability caps, drawdown monitoring, kill switch implementation, and graceful shutdown on API disconnection.
+description: Risk management architecture for automated Betfair trading in Java — stake limits, liability caps, drawdown monitoring, kill switch implementation, and graceful shutdown on API disconnection.
 ---
 
 Of everything involved in building automated trading systems, risk management is the topic traders most often underinvest in — until the day they wish they hadn't. I've spoken to developers who built strategies that worked beautifully in testing, deployed them live, and then watched them place hundreds of bets in under a minute when an edge case triggered a strategy loop. The losses were significant and entirely preventable. Good risk architecture isn't optional — it's the foundation everything else sits on.

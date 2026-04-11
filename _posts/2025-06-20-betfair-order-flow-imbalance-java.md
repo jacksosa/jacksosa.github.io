@@ -1,11 +1,9 @@
 ---
 title: "Betfair | Order Flow Imbalance — A Java Implementation"
-date: 2026-06-20
 tags: [Java, Betfair, Trading, Order Flow, Market Microstructure]
 style: fill
 color: danger
-description: >-
-  Order flow imbalance (OFI) as a trading signal on Betfair — what it is, how to calculate it from streaming data, and how to build a real-time OFI indicator in Java.
+description: Order flow imbalance (OFI) as a trading signal on Betfair — what it is, how to calculate it from streaming data, and how to build a real-time OFI indicator in Java.
 ---
 
 Order flow imbalance is a concept borrowed from equity market microstructure research, and it translates surprisingly well to Betfair. The core idea: at any moment, there's a flow of money arriving on the back side and a flow arriving on the lay side. If backs are arriving faster than lays, the price is likely to shorten. If lays are arriving faster, the price is likely to drift. OFI captures this directional pressure more precisely than a static snapshot of available money.

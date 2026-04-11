@@ -1,11 +1,9 @@
 ---
 title: "Betdaq | Betdaq API Integration for Java Developers"
-date: 2026-08-22
 tags: [Java, Betdaq, Betting Exchange, API, Spring Boot]
 style: fill
 color: warning
-description: >-
-  A practical guide to integrating with the Betdaq Exchange API in Java — authentication, market browsing, placing orders, and building an abstraction layer for multi-exchange trading systems.
+description: A practical guide to integrating with the Betdaq Exchange API in Java — authentication, market browsing, placing orders, and building an abstraction layer for multi-exchange trading systems.
 ---
 
 Betdaq is the second-largest betting exchange in the world, and it remains significantly underexplored by Java developers compared to Betfair. That's partly because the Betfair API has better documentation and a larger developer community, and partly because Betdaq's liquidity is lower in most markets. But Betdaq has a commission structure that's meaningfully cheaper than Betfair's, genuine liquidity in certain sport types, and an API that's straightforward to work with once you understand its structure. If you're building a serious exchange trading system, you should evaluate Betdaq alongside Betfair.

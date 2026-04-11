@@ -1,11 +1,9 @@
 ---
 title: "Spring Boot | Spring Data MongoDB — Modelling and Querying Documents"
-date: 2026-08-01
 tags: [Java, Spring Boot, MongoDB, Spring Data, NoSQL]
 style: fill
 color: success
-description: >-
-  Using Spring Data MongoDB in Spring Boot — @Document modelling, repositories, MongoTemplate for complex queries, aggregation pipelines, indexing, and avoiding the N+1 problem.
+description: Using Spring Data MongoDB in Spring Boot — @Document modelling, repositories, MongoTemplate for complex queries, aggregation pipelines, indexing, and avoiding the N+1 problem.
 ---
 
 MongoDB is the right choice for certain problems: storing event streams, capturing variable-schema documents, handling high write throughput with flexible reads. At ESG Global we used it for smart meter reading storage — millions of time-series readings per day with varying metadata schemas depending on the meter type. At DWP Digital it was the event store backing our CQRS read models. Spring Data MongoDB makes the basic operations straightforward, but the query API and aggregation pipeline deserve more attention than most tutorials give them.

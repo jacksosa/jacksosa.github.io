@@ -1,11 +1,9 @@
 ---
 title: "Java | Java Memory Management and GC Tuning for Low-Latency Systems"
-date: 2026-10-03
 tags: [Java, JVM, GC, Performance, Low Latency]
 style: fill
 color: warning
-description: >-
-  JVM memory management and GC tuning for Java low-latency systems — G1GC vs ZGC, key JVM flags, allocation pressure reduction, and GC monitoring with JFR for Betfair trading and financial data pipelines.
+description: JVM memory management and GC tuning for Java low-latency systems — G1GC vs ZGC, key JVM flags, allocation pressure reduction, and GC monitoring with JFR for Betfair trading and financial data pipelines.
 ---
 
 Most Java applications never need to think about GC tuning. The defaults are reasonable, GC pauses are short, and the overhead is negligible. But for systems with strict latency requirements — a Betfair trading framework where a 500ms GC pause causes you to miss a pre-race steam, or a financial data pipeline where consistent sub-10ms processing is part of the SLA — GC behaviour matters and understanding it is the difference between a system that works and one that occasionally doesn't.

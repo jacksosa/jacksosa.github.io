@@ -1,11 +1,9 @@
 ---
 title: "Betfair | Pre-Race vs In-Play Trading — Technical Architecture"
-date: 2026-09-12
 tags: [Java, Betfair, Trading, In-Play, Architecture]
 style: fill
 color: primary
-description: >-
-  The technical and strategic differences between pre-race and in-play Betfair trading — market state transitions, streaming API indicators, latency requirements, and Java architecture for both modes.
+description: The technical and strategic differences between pre-race and in-play Betfair trading — market state transitions, streaming API indicators, latency requirements, and Java architecture for both modes.
 ---
 
 Pre-race and in-play trading on Betfair are fundamentally different problems. Pre-race trading operates over minutes, prices move predictably enough to apply analytical signals, and the risk of catastrophic loss on a single decision is manageable. In-play trading operates in seconds or fractions of seconds, prices can halve or double on a single event, and the consequences of a position left unhedged during a suspension cascade can be severe. Building a system that handles both modes cleanly — without either polluting the other — requires deliberate architectural choices.

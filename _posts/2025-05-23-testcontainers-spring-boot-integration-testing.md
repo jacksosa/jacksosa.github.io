@@ -1,11 +1,9 @@
 ---
 title: "Testing | Testcontainers for Spring Boot — Real Databases, Real Confidence"
-date: 2026-05-23
 tags: [Java, Spring Boot, Testcontainers, Testing, PostgreSQL, MongoDB]
 style: fill
 color: secondary
-description: >-
-  Why Testcontainers beats mocked repositories for integration testing, and how to use it in Spring Boot with PostgreSQL, MongoDB, and Kafka — with real container setup and test speed tips.
+description: Why Testcontainers beats mocked repositories for integration testing, and how to use it in Spring Boot with PostgreSQL, MongoDB, and Kafka — with real container setup and test speed tips.
 ---
 
 I got burned by mocked repository tests at DWP Digital. A service had 95% test coverage, every test green, and a production deployment that failed because the Mongo query our team had written didn't behave the way the mock said it would. The mock had been configured to return data in a specific order; the real MongoDB returned it in a different order under load. An entire sprint of bug investigation traced back to a mocked dependency that lied.

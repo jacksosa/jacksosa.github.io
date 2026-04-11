@@ -1,11 +1,9 @@
 ---
 title: "Betfair | Understanding the Betfair Streaming API in Java"
-date: 2026-05-02
 tags: [Java, Betfair, Streaming API, WebSocket, Spring Boot]
 style: fill
 color: warning
-description: >-
-  How the Betfair Streaming API (ESA) works and how to build a robust Java WebSocket client — covering the protocol, market change messages, local state caching, and reconnection logic.
+description: How the Betfair Streaming API (ESA) works and how to build a robust Java WebSocket client — covering the protocol, market change messages, local state caching, and reconnection logic.
 ---
 
 If you're polling `listMarketBook` to get Betfair prices, you're already behind. Every poll costs an API call against your quota, introduces latency proportional to your polling interval, and gets you a full snapshot when you only need the delta. The Streaming API — formally known as the Exchange Streaming API (ESA) — solves all three problems. It pushes changes to you the moment they occur on the exchange. In my trading framework, switching from polling to streaming cut market data latency from ~500ms to under 50ms.

@@ -1,11 +1,9 @@
 ---
 title: "Spring Boot | CQRS Pattern with Kafka and Spring Boot"
-date: 2026-06-27
 tags: [Java, Spring Boot, CQRS, Apache Kafka, Architecture]
 style: fill
 color: info
-description: >-
-  Implementing CQRS in Spring Boot with Kafka — separating command and query models, publishing events, building read projections, and knowing when CQRS is worth the complexity.
+description: Implementing CQRS in Spring Boot with Kafka — separating command and query models, publishing events, building read projections, and knowing when CQRS is worth the complexity.
 ---
 
 CQRS — Command Query Responsibility Segregation — separates the write path (commands that change state) from the read path (queries that return data). At DWP Digital, we applied it to the benefit claims platform because the read requirements (claimant-facing status pages, caseworker dashboards, reporting) were fundamentally different from the write requirements (claim state transitions, eligibility decisions, payment instructions). One data model couldn't serve all of them well without compromising either throughput or query flexibility.

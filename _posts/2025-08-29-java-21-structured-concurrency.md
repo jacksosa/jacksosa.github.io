@@ -1,11 +1,9 @@
 ---
 title: "Java | Structured Concurrency in Java 21"
-date: 2026-08-29
 tags: [Java, Java 21, Structured Concurrency, Concurrency, Threading]
 style: fill
 color: secondary
-description: >-
-  Structured concurrency in Java 21 — StructuredTaskScope, ShutdownOnFailure, ShutdownOnSuccess, how it prevents thread leaks, and where it produces cleaner code than CompletableFuture.
+description: Structured concurrency in Java 21 — StructuredTaskScope, ShutdownOnFailure, ShutdownOnSuccess, how it prevents thread leaks, and where it produces cleaner code than CompletableFuture.
 ---
 
 Before structured concurrency, managing a group of concurrent tasks in Java was error-prone. If you forked three async operations with `CompletableFuture` and one failed, the other two kept running — consuming resources, potentially making external calls, and potentially producing results that would never be used. Structured concurrency, finalised in Java 21, gives you a disciplined model: tasks are scoped, they have clear lifetimes, and the scope doesn't exit until all tasks have finished or been cancelled.

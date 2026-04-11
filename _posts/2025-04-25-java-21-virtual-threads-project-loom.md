@@ -1,11 +1,9 @@
 ---
 title: "Java 21 | Virtual Threads and Project Loom — A Practical Guide"
-date: 2026-04-25
 tags: [Java, Java 21, Virtual Threads, Project Loom, Concurrency]
 style: fill
 color: success
-description: >-
-  Deep dive into Java 21 virtual threads — how they work, how to enable them in Spring Boot 3, where they shine for IO-bound workloads, and where they won't help you.
+description: Deep dive into Java 21 virtual threads — how they work, how to enable them in Spring Boot 3, where they shine for IO-bound workloads, and where they won't help you.
 ---
 
 Java's threading model has been a source of friction for two decades. Platform threads are expensive — each one maps 1:1 to an OS thread, consuming 1MB of stack space by default. Scaling a service to handle 10,000 concurrent requests meant thread pools, reactive programming, and complexity that the business logic didn't deserve. Project Loom, delivered in Java 21 as a stable feature, changes the calculus entirely. I've migrated production services from reactive pipelines to virtual threads, and the code clarity improvement is significant.

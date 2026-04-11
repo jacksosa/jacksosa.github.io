@@ -1,11 +1,9 @@
 ---
 title: "Java | Sealed Classes and Pattern Matching — Modern Java Features"
-date: 2026-07-11
 tags: [Java, Java 17, Java 21, Pattern Matching, Sealed Classes]
 style: fill
 color: secondary
-description: >-
-  Sealed classes and pattern matching in switch expressions (Java 17–21) — replacing instanceof chains with exhaustive pattern matching, guarded patterns, and record deconstruction.
+description: Sealed classes and pattern matching in switch expressions (Java 17–21) — replacing instanceof chains with exhaustive pattern matching, guarded patterns, and record deconstruction.
 ---
 
 Java's type system got significantly more expressive between Java 16 and Java 21. Sealed classes (Java 17), pattern matching for `switch` (Java 21), and record patterns (Java 21) work together to eliminate entire categories of boilerplate. I've replaced sprawling `if-instanceof` chains in domain event handling and command routing with switch expressions that the compiler verifies for exhaustiveness. The result is shorter, safer, more readable code.

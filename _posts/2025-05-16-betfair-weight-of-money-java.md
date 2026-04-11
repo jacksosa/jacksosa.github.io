@@ -1,11 +1,9 @@
 ---
 title: "Betfair | Weight of Money — Implementing WoM Calculations in Java"
-date: 2026-05-16
 tags: [Java, Betfair, Trading, Market Analysis, Spring Boot]
 style: fill
 color: danger
-description: >-
-  How to calculate Weight of Money (WoM) from live Betfair Streaming data in Java — including the formula, rolling trend signals, Spring Boot wiring, and when the signal is and isn't reliable.
+description: How to calculate Weight of Money (WoM) from live Betfair Streaming data in Java — including the formula, rolling trend signals, Spring Boot wiring, and when the signal is and isn't reliable.
 ---
 
 Weight of Money is one of the most widely discussed pre-race trading signals on Betfair, and one of the most widely misunderstood. I've seen traders treat it as gospel and get burned; I've also seen it provide a genuinely useful edge when applied with the right context. The signal itself is simple to compute — the insight is knowing when to trust it and when to ignore it.

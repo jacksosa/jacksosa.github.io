@@ -1,11 +1,9 @@
 ---
 title: "Resilience4j | Circuit Breakers, Rate Limiters, and Bulkheads in Spring Boot"
-date: 2026-07-18
 tags: [Java, Spring Boot, Resilience4j, Circuit Breaker, Resilience]
 style: fill
 color: warning
-description: >-
-  Practical guide to Resilience4j in Spring Boot — configuring @CircuitBreaker, @RateLimiter, @Bulkhead, and @Retry annotations, and testing resilience patterns in integration tests.
+description: Practical guide to Resilience4j in Spring Boot — configuring @CircuitBreaker, @RateLimiter, @Bulkhead, and @Retry annotations, and testing resilience patterns in integration tests.
 ---
 
 Distributed systems fail. The question isn't whether a downstream service will become unavailable — it's whether your system degrades gracefully or takes everything down with it. At Mosaic Smart Data, where our real-time financial data API depended on feeds from multiple third-party providers, a poorly isolated failure in one provider would cascade and degrade unrelated client queries. Resilience4j, combined with Spring Boot's annotation-driven configuration, gave us the isolation and recovery behaviour we needed with a fraction of the code Hystrix required.

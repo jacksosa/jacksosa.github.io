@@ -1,11 +1,9 @@
 ---
 title: "Smarkets | Smarkets API Integration for Java Developers"
-date: 2026-09-26
 tags: [Java, Smarkets, Betting Exchange, API, Spring Boot]
 style: fill
 color: info
-description: >-
-  Integrating with the Smarkets Exchange API in Java — REST and streaming authentication, market browsing, order placement, and building a multi-exchange abstraction alongside Betfair.
+description: Integrating with the Smarkets Exchange API in Java — REST and streaming authentication, market browsing, order placement, and building a multi-exchange abstraction alongside Betfair.
 ---
 
 Smarkets is the third major UK betting exchange, and it has a few characteristics that make it worth adding to a multi-exchange trading system. The commission structure is among the lowest in the market — 2% flat. The REST and streaming APIs are well-documented and genuinely modern. And for certain political events and US sports markets, Smarkets often has comparable or superior liquidity to Betfair. If you've built Betfair integration in Java, adding Smarkets is a few days' work — and the incremental edge it provides can be meaningful.

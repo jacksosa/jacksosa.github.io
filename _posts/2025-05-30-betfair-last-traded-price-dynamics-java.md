@@ -1,11 +1,9 @@
 ---
 title: "Betfair | Last Traded Price Dynamics — Reading Market Direction"
-date: 2026-05-30
 tags: [Java, Betfair, Trading, LTP, Market Analysis]
 style: fill
 color: primary
-description: >-
-  How Last Traded Price data from the Betfair Streaming API reveals market momentum — building a sliding window LTP analyser in Java to calculate price velocity and identify drift patterns.
+description: How Last Traded Price data from the Betfair Streaming API reveals market momentum — building a sliding window LTP analyser in Java to calculate price velocity and identify drift patterns.
 ---
 
 The Last Traded Price (LTP) is the odds at which the most recent bet was matched on Betfair. In isolation it's just a number. In sequence, it tells a story about where the market is going and how fast it's moving. LTP analysis is the closest thing to reading tape in traditional financial markets — and in my experience it's more reliable than Weight of Money as a directional signal, particularly in the final 10 minutes before the off.

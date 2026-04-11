@@ -1,11 +1,9 @@
 ---
 title: "AWS | AWS Lambda with Spring Boot — Cold Start Optimisation"
-date: 2026-09-05
 tags: [Java, AWS, Lambda, Spring Boot, Serverless]
 style: fill
 color: danger
-description: >-
-  Deploying Spring Boot to AWS Lambda and tackling cold start latency — GraalVM native image, SnapStart, tiered compilation, and knowing when Lambda is the wrong choice for Java workloads.
+description: Deploying Spring Boot to AWS Lambda and tackling cold start latency — GraalVM native image, SnapStart, tiered compilation, and knowing when Lambda is the wrong choice for Java workloads.
 ---
 
 AWS Lambda is a natural fit for event-driven architectures — and it's where I've deployed several components of financial data ingestion pipelines and AWS-hosted services. The friction comes from Java's cold start time. A standard Spring Boot application with its full context can take 8–15 seconds to initialise on a fresh Lambda container. For APIs where users experience that latency, it's unacceptable. The good news is there are several techniques that bring cold starts to under 1 second, and in many cases the choice of approach is straightforward.

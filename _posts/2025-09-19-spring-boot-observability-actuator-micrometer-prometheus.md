@@ -1,11 +1,9 @@
 ---
 title: "Spring Boot | Production Observability with Actuator, Micrometer, and Prometheus"
-date: 2026-09-19
 tags: [Java, Spring Boot, Observability, Prometheus, Micrometer, Actuator]
 style: fill
 color: success
-description: >-
-  Building production-grade observability into Spring Boot — Actuator health endpoints, custom health indicators, Micrometer metrics, Prometheus export, and instrumenting business-level metrics.
+description: Building production-grade observability into Spring Boot — Actuator health endpoints, custom health indicators, Micrometer metrics, Prometheus export, and instrumenting business-level metrics.
 ---
 
 Observability is the difference between knowing your system is behaving correctly and hoping it is. I've been on teams that discovered a critical processing failure from a customer complaint rather than from a dashboard — and I've been on teams where we caught and resolved a Kafka consumer lag spike before a single business transaction was affected. The difference was instrumentation. Spring Boot Actuator, Micrometer, and Prometheus give you the building blocks; the craft is knowing what to measure and how to make the dashboards actionable.

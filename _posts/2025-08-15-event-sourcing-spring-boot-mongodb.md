@@ -1,11 +1,9 @@
 ---
 title: "Java | Event Sourcing with Spring Boot and MongoDB"
-date: 2026-08-15
 tags: [Java, Spring Boot, Event Sourcing, MongoDB, Architecture]
 style: fill
 color: info
-description: >-
-  Implementing event sourcing in Java Spring Boot with MongoDB as the event store — event appending, aggregate reconstruction, snapshots, and publishing events to Kafka for downstream projections.
+description: Implementing event sourcing in Java Spring Boot with MongoDB as the event store — event appending, aggregate reconstruction, snapshots, and publishing events to Kafka for downstream projections.
 ---
 
 Event sourcing stores the history of state changes, not the current state. Instead of updating a row to record that a claim was approved, you append an immutable `ClaimApproved` event to the event log. The current state is derived by replaying the events. This sounds like extra work — and it is — but the benefits for audit-heavy systems, complex temporal queries, and event-driven integration are substantial. At DWP Digital, where every state change to a benefit claim had legal and audit significance, event sourcing was the right architecture.
